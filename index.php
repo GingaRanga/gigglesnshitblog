@@ -100,9 +100,6 @@
                         <a class="page-scroll" href="#about">Introduction</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Sales &amp; Service</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#portfolio">Recent Posts</a>
                     </li>
                     <li>
@@ -162,32 +159,6 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!--
-    
-    <nav class="social text-center navbar navbar-default navbar-fixed-bottom">
-    	<div class="container-fluid">
-        	<h2 style="color:#F05F40;">Did this read tickle your fancy? Please share...</h2>
-        	<ul class="social-list">
-            	<!-- FACEBOOK 
-            	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a></li>
-                <!-- REDDIT 
-            	<li><a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/&title=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a></li>
-                <!-- TWITTER 
-                <li><a href="http://twitter.com/home?status=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog%20http://www.gigglesnshit.com/" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <!-- GOOGLE PLUS 
-                <li><a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a></li>
-                <!-- PINTEREST 
-                <li><a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&description=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a></li>
-                <!-- LINKEDIN
-                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&title=Giggles%20N%20Shit%20Blog&summary=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a></li>
-                <!-- BACK TO TOP 
-                <li style="color:black;"><a href="#page-top" class="back-to-top"><i class="fa fa-lg fa-arrow-circle-up"></i></a> back2top</li>
-      		</ul>
-        </div>
-    </nav>
-    
-    -->
-
 <!-- HERO TEXT ================================================================================================================================================ -->
     <header>
         <div class="header-content">
@@ -201,6 +172,8 @@
     </header>
 
 <!-- FACEBOOK LOGIN SECTION ================================================================================================================================================ -->
+
+	<!--
     <section class="bg-dark">
     	<div class="container-fluid text-center">
         	<script>
@@ -284,7 +257,7 @@
 				}
 			</script>
 
-			<!-- Facebook Login Button -->
+			<!-- Facebook Login Button
 
 			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
 
@@ -292,6 +265,8 @@
 
 		</div>
 	</section>
+    
+    -->
 
 <!-- WHY WRITE BLOG ================================================================================================================================================ -->
     <section class="bg-primary" id="about">
@@ -339,42 +314,6 @@
 					echo $googleadsense;
 
                     ?><br><br>
-
-                    <h2 class="section-heading">Is This Blog for You?</h2>
-                    <h3>Here are some of the things you should expect</h3>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-commenting wow bounceIn text-primary"></i>
-                        <h3>Active Participation from the Author</h3>
-                        <p class="text-muted">I will have a comment section on each blog post. I encourage you to comment on any topic I cover and I will do my best to partake in the discussion as well. I will have links to my social networking accounts and I fully encourage you to post pictures of your little ones, tell your funny stories, and meet other parents in the struggle.</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
-                     <div class="service-box">
-                         <i class="fa fa-4x fa-hand-peace-o wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                         <h3>All in Good Fun</h3>
-                         <p class="text-muted">I know I said I am opinionated, I will be discussing hot-button topics, and I am open to debate. I fully expect that this means some people will get offended and pretty heated in the comment sections. Please keep in mind that the intentions of the blog are to provide a light-hearted view of the world we live in and is not intended to offend or say that any one else's opinions are wrong.</p>
- 					</div>
-             	</div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-pencil wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>I Have Other Hobbies</h3>
-                        <p class="text-muted">I have been sketching my entire life. I am a <strong>HUGE</strong> tech geek both personally and professionally. I also have been dabbing in the wonderful world of web development over the past year or so (I created this webpage!). Sooooo... check out my <a href="#">sales &amp; service</a> section. In this section I will provide web design/development services, technological troubleshooting/tutorials, as well as sketches up for sale!</p>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-thumbs-up wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Follow &amp; Like!</h3>
-                        <p class="text-muted">I will be posting blogs quite frequently so make sure you like the <strong>Giggles N Shit Blog</strong> page on <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> and <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> so that you don't miss any new blog posts, important communications, as well exclusive pictures/moments! Also keep in mind that my blog posts will be very dynamic. They will contain pictures and videos... I find plain text makes my head spin after a while so I want to spruce it up for ya!</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -386,6 +325,102 @@
             <div class="row no-gutter">
 
           		<h2 class="text-center bg-dark" style="margin:0; padding:15px 0;">Click the images below to access the posts</h2>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-1.php?id=1" class="portfolio-box">
+                        <img src="img/portfolio/announcement.jpg" class="img-responsive" alt="blog post 1">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "Shit, I'm Pregnant..."
+                                </div>
+                                <div class="project-name">
+                                    March 20<sup>th</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-2.php?id=2" class="portfolio-box">
+                        <img src="img/portfolio/watermelon.jpg" class="img-responsive" alt="blog post 2">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "The Watermelon Incident..."
+                                </div>
+                                <div class="project-name">
+                                    March 28<sup>th</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-3.php?id=3" class="portfolio-box">
+                        <img src="img/portfolio/peanut.jpg" class="img-responsive" alt="blog post 3">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "Dr. Sloth..."
+                                </div>
+                                <div class="project-name">
+                                    April 5<sup>th</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-4.php?id=4" class="portfolio-box">
+                        <img src="img/portfolio/the-bomb-1.jpg" class="img-responsive" alt="blog post 4">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "The Bomb Drop: Part I"
+                                </div>
+                                <div class="project-name">
+                                    April 11<sup>th</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-5.php?id=5" class="portfolio-box">
+                        <img src="img/portfolio/hospital.jpg" class="img-responsive" alt="blog post 5">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "The Bomb Drop: Part II"
+                                </div>
+                                <div class="project-name">
+                                    April 19<sup>th</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-6.php?id=6" class="portfolio-box">
+                        <img src="img/portfolio/xmas.jpg" class="img-responsive" alt="blog post 6">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "Tough Cookie..."
+                                </div>
+                                <div class="project-name">
+                                    April 26<sup>th</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-7.php?id=7" class="portfolio-box">
@@ -538,6 +573,9 @@
 </section>
 
 <!-- AMAZON A STORE ================================================================================================================================================ -->
+
+	<!--
+    
     <section id="admin" class="bg-dark">
         <div class="container-fluid">
         	<div id="amazon-link" class="text-center text-capitalize">
@@ -553,6 +591,8 @@
          	</div>
     	</div>
   	</section>
+    
+    -->
 
 <!-- MINIFIED BOOTSTRAP JQUERY ====================================================================================================================================--><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
