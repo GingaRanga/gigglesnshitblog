@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media(max-width:768px) {
+	#amazon {
+		display:none;
+	}
+	.social li{
+		color:black;
+	}
+	.social h2{
+		font-size:small;
+	}
+}
+
