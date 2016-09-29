@@ -39,18 +39,12 @@
     <meta property="og:url" content="http://www.gigglesnshit.com/pages/blog-1.php" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Shit, I'm Pregnant" />
-    <meta property="og:description" content="Evan, you said to look-up Lower Sackville Promo on YouTube and now a man named Rasheed from Windows said my computer was infected with viruses and I no longer have a left kidney. I’ll save you the trouble... Check out the 1st post on Giggles N Shit Blog!" />
+    <meta property="og:description" content="In the first blog post I talk about how Katie and I met as well as finding out we were going to have a child!" />
     <meta property="og:image" content="http://www.gigglesnshit.com/img/portfolio/announcement.jpg" />
     <meta property="fb:app_id" content="970981369664540"/>
     <meta property="og:site_name" content="Giggles N Shit Blog"/>
 
 <!-- TWITTER SHARE CARD - also uses open graph data ================================================================================================================================================ -->
-    <meta property="og:description" content="Evan, you said to look-up Lower Sackville Promo on YouTube and now a man named Rasheed from Windows said my computer was infected with viruses and I no longer have a left kidney. I’ll save you the trouble… Check out the 1st post on Giggles N Shit Blog!" />
-    <meta property="og:image" content="http://www.gigglesnshit.com/img/portfolio/announcement.jpg" />
-    <meta property="fb:app_id" content="970981369664540"/>
-    <meta property="og:site_name" content="Giggles N Shit Blog"/>
-    
-<!-- TWITTER SHARE CARD - also uses open graph data ================================================================================================================================================ -->    
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@gigglesshitblog" />
     <meta name="twitter:creator" content="@evanmarshall" />
@@ -69,7 +63,8 @@
     <link href="../css/media.maximum.768.min.css" rel="stylesheet" media="screen and (max-width:768px)">
     <link href="../css/media.minimum.768.min.css" rel="stylesheet" media="screen and (min-width:768px)">
     <link href="../css/media.minimum.992.min.css" rel="stylesheet" media="screen and (min-width:992px)">
-
+    <link href="../css/media.maximum.768.landscape.css" rel="stylesheet" media="screen and (orientation:landscape)">
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -111,6 +106,15 @@
                     <li>
                         <a href="../index.php">Homepage</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#article">Main Story</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sites">Recommended Sites</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -138,24 +142,31 @@
             <div class="social text-center collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 <ul class="social-list nav navbar-nav navbar-right">
                     <li>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a>
+                    	<!-- FACEBOOK -->
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/pages/blog-1.php" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/&title=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a>
+                    	<!-- REDDIT -->
+                        <a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/pages/blog-1.php&title=In%20the%20first%20blog%20post%20I%20talk%20about%20how%20Katie%20and%20I%20met%20as%20well%20as%20finding%20out%20we%20were%20going%20to%20have%20a%20child%21" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a>
                     </li>
                     <li>
-                        <a href="http://twitter.com/home?status=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog%20http://www.gigglesnshit.com/" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a>
+                    	<!-- TWITTER -->
+                        <a href="http://twitter.com/home?status=Check%20out%20the%20latest%20post%20%2C%22Shit%2C%20I%27m%20Pregnant%22%20on%20http://www.gigglesnshit.com/pages/blog-1.php" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a>
+                    	<!-- GOOGLE + -->
+                        <a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/pages/blog-1.php" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a>
                     </li>
                     <li>
-                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&description=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
+                    	<!-- PINTEREST -->
+                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com/pages/blog-1.php&media=http://www.gigglesnshit.com/img/portfolio/announcement.jpg&description=In%20the%20first%20blog%20post%20I%20talk%20about%20how%20Katie%20and%20I%20met%20as%20well%20as%20finding%20out%20we%20were%20going%20to%20have%20a%20child%21" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
                     </li>
                     <li>
-                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&title=Giggles%20N%20Shit%20Blog&summary=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
+                    	<!-- LINKEDIN -->
+                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com/pages/blog-1.php&media=http://www.gigglesnshit.com/img/portfolio/announcement.jpg&title=Giggles%20N%20Shit%20Blog&summary=In%20the%20first%20blog%20post%20I%20talk%20about%20how%20Katie%20and%20I%20met%20as%20well%20as%20finding%20out%20we%20were%20going%20to%20have%20a%20child%21" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
                     </li>
                     <li style="color:black;">
+                    	<!-- PAGE TOP -->
                     	<a href="#page-top" class="back-to-top"><i class="fa fa-lg fa-arrow-circle-up"></i></a> back2top
                    	</li>
                 </ul>
@@ -164,32 +175,6 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <!--
-    
-    <nav class="social text-center navbar navbar-default navbar-fixed-bottom">
-    	<div class="container-fluid">
-        	<h2 style="color:#F05F40;">Did this read tickle your fancy? Please share...</h2>
-        	<ul class="social-list">
-            	<!-- FACEBOOK 
-            	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a></li>
-                <!-- REDDIT 
-            	<li><a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/&title=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a></li>
-                <!-- TWITTER 
-                <li><a href="http://twitter.com/home?status=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog%20http://www.gigglesnshit.com/" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <!-- GOOGLE PLUS 
-                <li><a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a></li>
-                <!-- PINTEREST 
-                <li><a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&description=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a></li>
-                <!-- LINKEDIN
-                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&title=Giggles%20N%20Shit%20Blog&summary=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a></li>
-                <!-- BACK TO TOP 
-                <li style="color:black;"><a href="#page-top" class="back-to-top"><i class="fa fa-lg fa-arrow-circle-up"></i></a> back2top</li>
-      		</ul>
-        </div>
-    </nav>
-    
-    -->
     
 <!-- HERO TEXT ================================================================================================================================================ -->
     <header>
@@ -197,131 +182,20 @@
             <div class="header-content-inner">
                 <h1>Giggles N Shit</h1>
                 <hr>
+                <p>It's going to get a little crazy on this blog! I am a new father, loving husband, and stay at home 'fommy.' Join me on my journey as I discuss hot-button topics and re-tell the mostly humourous side of being a family-man.</p>
                 <a href="https://www.instagram.com/gigglesnshitblog/" class="btn btn-primary btn-xl page-scroll">#gigglesnshitblog</a>
             </div>
         </div>
     </header>
 
-<!-- FACEBOOK LOGIN SECTION ================================================================================================================================================ -->
-    <section class="bg-dark">
-    	<div class="container-fluid text-center">
-
-<!-- GOOGLE ADSENSE HERO ================================================================================================================================================ -->
-            <?php
-
-                $googleadsense =
-                '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Google Ad -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-8526023922334594"
-                    data-ad-slot="7357456062"
-                    data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>';
-                echo $googleadsense;
-
-            ?><br><br>
-
-        	<script>
-				// This is called with the results from from FB.getLoginStatus().
-				function statusChangeCallback(response) {
-					console.log('statusChangeCallback');
-					console.log(response);
-					// The response object is returned with a status field that lets the
-					// app know the current login status of the person.
-					// Full docs on the response object can be found in the documentation
-					// for FB.getLoginStatus().
-						if (response.status === 'connected') {
-							// Logged into your app and Facebook.
-							testAPI();
-						} else if (response.status === 'not_authorized') {
-							// The person is logged into Facebook, but not your app.
-							document.getElementById('status').innerHTML = 'Please log ' +
-							'into this app.';
-				} else {
-					// The person is not logged into Facebook, so we're not sure if
-					// they are logged into this app or not.
-					document.getElementById('status').innerHTML = 'Please log ' +
-					'into Facebook.';
-					}
-  				}
-
-				// This function is called when someone finishes with the Login
-				// Button.  See the onlogin handler attached to it in the sample
-				// code below.
-				function checkLoginState() {
-					FB.getLoginStatus(function(response) {
-						statusChangeCallback(response);
-					});
-				}
-
-				window.fbAsyncInit = function() {
-				FB.init({
-					appId      : '970981369664540',
-					cookie     : true,  // enable cookies to allow the server to access
-										// the session
-					xfbml      : true,  // parse social plugins on this page
-					version    : 'v2.5' // use graph api version 2.5
-				});
-
-				// Now that we've initialized the JavaScript SDK, we call
-				// FB.getLoginStatus().  This function gets the state of the
-				// person visiting this page and can return one of three states to
-				// the callback you provide.  They can be:
-				//
-				// 1. Logged into your app ('connected')
-				// 2. Logged into Facebook, but not your app ('not_authorized')
-				// 3. Not logged into Facebook and can't tell if they are logged into
-				//    your app or not.
-				//
-				// These three cases are handled in the callback function.
-
-				FB.getLoginStatus(function(response) {
-					statusChangeCallback(response);
-				});
-
-				};
-
-				// Load the SDK asynchronously
-				(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = "//connect.facebook.net/en_US/sdk.js";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-
-				// Here we run a very simple test of the Graph API after login is
-				// successful.  See statusChangeCallback() for when this call is made.
-				function testAPI() {
-					console.log('Welcome!  Fetching your information.... ');
-					FB.api('/me', function(response) {
-						console.log('Successful login for: ' + response.name);
-						document.getElementById('status').innerHTML =
-						'Thanks for logging in, ' + response.name + '!';
-					});
-				}
-			</script>
-
-			<!-- Facebook Login Button -->
-
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
-
-			<div id="status"></div>
-
-		</div>
-	</section>
-
 <!-- BLOG POST ARTICLE ================================================================================================================================================ -->
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="article">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 text-center">
 
-                	<h1 itemprop="name">"Shit, I'm Pregnant..."</h1>
-                    <h2 class="section-heading">March 20th 2016</h2>
+                	<h2 itemprop="name">"Shit, I'm Pregnant..."</h2>
+                    <h3 class="section-heading">March 20th 2016</h3>
 
                     <hr class="light">
 
@@ -372,7 +246,35 @@
                     <p class="text-faded">Just kidding (about the scissors)!</p>
 
                     <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
-                </div><!-- ./col-lg-8 -->
+                </div>
+                
+	<!-- GOOGLE ADSENSE #1 ================================================================================================================================================ -->
+	<section class="bg-dark">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-12 text-center">
+                
+					<?php
+        
+                        $googleadsense =
+                        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Google Ad -->
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-client="ca-pub-8526023922334594"
+                            data-ad-slot="7357456062"
+                            data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>';
+                        echo $googleadsense;
+        
+                    ?>
+		
+        		</div>
+        	</div>
+		</div>
+	</section>                            
 
 <!-- ADDITIONAL BLOG POSTS ================================================================================================================================================ -->
                 <div class="col-md-4 text-center">
@@ -808,7 +710,7 @@
     </section>
 
 <!-- RECOMMENDED RESOURCES ================================================================================================================================================ -->
-    <section>
+    <section id="sites">
         <div class="container-fluid">
             <h2 class="text-center">Highly Recommended Resources for my Readers</h2>
             <hr>
@@ -841,28 +743,34 @@
 
 <!-- FACEBOOK COMMENTS ================================================================================================================================================ -->
     <section class="bg-dark">
-        <div class="container-fluid">
-            <div class="fb-comments" data-order-by="social" data-mobile="auto-detected" data-colorscheme="dark" data-href="http://www.gigglesnshit.com/pages/blog-1.php" data-width="100%" data-numposts="10"></div>
+        <div class="container">
+        	<div class="row">
+            	<div class="col-lg-12 text-center">
+                
+                    <div class="fb-comments" data-order-by="social" data-mobile="auto-detected" data-colorscheme="dark" data-href="http://www.gigglesnshit.com/pages/blog-1.php" data-width="100%" data-numposts="10"></div>
 
 <!-- GOOGLE ADSENSE COMMENTS SECTION ================================================================================================================================================ -->
-            <?php
-
-            $googleadsense3 =
-            '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Google Ad Footer -->
-
-            <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-8526023922334594"
-            data-ad-slot="2149600061"
-            data-ad-format="auto"></ins>
-            <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>';
-            echo $googleadsense3;
-
-                    ?><br><br>
-
+					<?php
+        
+                    $googleadsense3 =
+                    '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Google Ad Footer -->
+        
+                    <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-8526023922334594"
+                    data-ad-slot="2149600061"
+                    data-ad-format="auto"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>';
+                    echo $googleadsense3;
+        
+                            ?>
+                    
+                 	</div>
+               	</div>     
+			</div>
         </div>
     </section>
 
@@ -894,24 +802,6 @@
             </div>
         </div>
     </section>
-
-<!-- AMAZON A STORE ================================================================================================================================================ -->
-    <section id="admin" class="bg-dark">
-        <div class="container-fluid">
-        	<div id="amazon-link" class="text-center text-capitalize">
-                <h2 style="padding-bottom:15px;"><a href="http://astore.amazon.ca/ginshbl-20">Giggles N Shit Must Haves</a></h2>
-                <div class="embed-responsive embed-responsive-16by9" id="amazon">
-                    <iframe class="embed-responsive-item" src="http://astore.amazon.ca/ginshbl-20" frameborder="0" scrolling="yes"></iframe>
-      			</div>
-            </div>
-            <div class="row" style="padding-top:15px;">
-                <div class="text-center col-lg-12 col-xs-12">
-                    <p>&copy; <a href="http://www.gigglesnshit.com">Giggles N Shit Blog</a> - 2016</p>
-        		</div>
-         	</div>
-    	</div>
-  	</section>
-
 
 <!-- MINIFIED BOOTSTRAP JQUERY ====================================================================================================================================--><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
