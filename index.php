@@ -16,6 +16,15 @@
 
  <!-- GOOGLE ANALYTICS ====================================================================================================================================== -->
     <?php include_once("php/analyticstracking.php") ?>
+    
+<!-- GOOGLE PAGE LEVEL ADS ============================================================================================================================== -->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+		google_ad_client: "ca-pub-8526023922334594",
+		enable_page_level_ads: true
+	  });
+	</script>      
 
 <!-- FAVICONS =============================================================================================================================================== -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
@@ -452,7 +461,7 @@
                         <ins class="adsbygoogle"
                             style="display:block"
                             data-ad-client="ca-pub-8526023922334594"
-                            data-ad-slot="7357456062"
+                            data-ad-slot="6719400463"
                             data-ad-format="auto"></ins>
                         <script>
                             (adsbygoogle = window.adsbygoogle || []).push({});

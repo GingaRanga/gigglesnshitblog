@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- START HEAD SECTION ===================================================================================================================================== -->
+<!-- START HEAD SECTION ================================================================================================================================= -->
 <head>
 
     <meta charset="utf-8">
@@ -14,10 +14,19 @@
     <meta name="author" content="Evan Marshall">
     <title>Summer in the Six: Part I</title>
 
- <!-- GOOGLE ANALYTICS ====================================================================================================================================== -->
+<!-- GOOGLE ANALYTICS =================================================================================================================================== -->
     <?php include_once("../php/analyticstracking.php") ?>
+    
+<!-- GOOGLE PAGE LEVEL ADS ============================================================================================================================== -->
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+		google_ad_client: "ca-pub-8526023922334594",
+		enable_page_level_ads: true
+	  });
+	</script>    
 
-<!-- FAVICONS =============================================================================================================================================== -->
+<!-- FAVICONS =========================================================================================================================================== -->
     <link rel="apple-touch-icon" sizes="57x57" href="../favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../favicon.ico/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../favicon.ico/apple-icon-72x72.png">
@@ -36,7 +45,7 @@
     <meta name="msapplication-TileImage" content="../favicon.ico/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-<!-- FACEBOOK GRAPH DATA ==================================================================================================================================== -->
+<!-- FACEBOOK GRAPH DATA ================================================================================================================================ -->
     <meta property="og:url" content="http://www.gigglesnshit.com/pages/blog-12.php" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Summer in the Six - Part I" />
@@ -45,21 +54,21 @@
     <meta property="fb:app_id" content="970981369664540"/>
     <meta property="og:site_name" content="Giggles N Shit Blog"/>
 
-<!-- TWITTER SHARE CARD - also uses open graph data ========================================================================================================= -->
+<!-- TWITTER SHARE CARD - also uses open graph data ===================================================================================================== -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@gigglesshitblog" />
     <meta name="twitter:creator" content="@evanmarshall" />
 
-<!-- MINIFIED BOOTSTRAP CSS ================================================================================================================================= -->
+<!-- MINIFIED BOOTSTRAP CSS ============================================================================================================================= -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 
-<!-- FONT-AWESOME =========================================================================================================================================== -->
+<!-- FONT-AWESOME ======================================================================================================================================= -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 
-<!-- PLUGIN CSS ============================================================================================================================================= -->
+<!-- PLUGIN CSS ========================================================================================================================================= -->
     <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
 
-<!-- CUSTOM CSS ============================================================================================================================================= -->
+<!-- CUSTOM CSS ========================================================================================================================================= -->
     <link rel="stylesheet" href="../css/creative.min.css" type="text/css">
     <link href="../css/media.maximum.768.min.css" rel="stylesheet" media="screen and (max-width:768px)">
     <link href="../css/media.minimum.768.min.css" rel="stylesheet" media="screen and (min-width:768px)">
@@ -74,12 +83,12 @@
     <![endif]-->
 
 </head>
-<!-- END HEAD SECTION ======================================================================================================================================= -->
+<!-- END HEAD SECTION =================================================================================================================================== -->
 
-<!-- START BODY SECTION ===================================================================================================================================== -->
+<!-- START BODY SECTION ================================================================================================================================= -->
 <body id="page-top" itemscope itemtype="http://schema.org/Blog">
 
-<!-- START FB COMMENTS JAVASCRIPT =========================================================================================================================== -->
+<!-- START FB COMMENTS JAVASCRIPT ======================================================================================================================= -->
     <div id="fb-root"></div>
     <script>
         (function(d, s, id) {
@@ -90,9 +99,9 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-<!-- END FB COMMENTS JAVASCRIPT ============================================================================================================================= -->
+<!-- END FB COMMENTS JAVASCRIPT ========================================================================================================================= -->
 
-<!-- START TOP NAV ========================================================================================================================================== -->
+<!-- START TOP NAV ====================================================================================================================================== -->
     <nav id="mainNav" role="navigation" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -124,9 +133,9 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav><!--./Top Nav -->
-<!-- END TOP NAV SECTION ==================================================================================================================================== -->    
+<!-- END TOP NAV SECTION ================================================================================================================================ -->    
 
-<!-- START SOCIAL NAV SECTION =============================================================================================================================== -->						
+<!-- START SOCIAL NAV SECTION =========================================================================================================================== -->						
 	<nav id="mainNav" role="navigation" class="social navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -174,9 +183,9 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav><!-- ./Social Nav -->
-<!-- END SOCIAL NAV SECTION ================================================================================================================================= -->    
+<!-- END SOCIAL NAV SECTION ============================================================================================================================= -->    
 
-<!-- START HERO SECTION ===================================================================================================================================== -->
+<!-- START HERO SECTION ================================================================================================================================= -->
     <header>
         <div class="header-content">
             <div class="header-content-inner">
@@ -187,9 +196,9 @@
             </div><!-- ./header-content-inner -->
         </div><!-- ./header-content -->
     </header><!-- ./Hero -->
-<!-- END HERO SECTION ======================================================================================================================================= -->
+<!-- END HERO SECTION =================================================================================================================================== -->
 
-<!-- START GOOGLE ADSENSE #1 SECTION  ======================================================================================================================= -->
+<!-- START GOOGLE ADSENSE #1 SECTION  =================================================================================================================== -->
 	<section class="bg-dark">
         <div class="container">
         	<div class="row">
@@ -212,9 +221,9 @@
          	</div><!-- ./row -->
       	</div><!-- ./container -->
 	</section><!-- ./bg-dark --> 
-<!-- END GOOGLE ADSENSE #1 SECTION  ========================================================================================================================= -->
+<!-- END GOOGLE ADSENSE #1 SECTION  ===================================================================================================================== -->
 
-<!-- START MAIN BLOG POST SECTION & ADDITIONAL POSTS ======================================================================================================== -->
+<!-- START MAIN BLOG POST SECTION & ADDITIONAL POSTS ==================================================================================================== -->
     <section class="bg-primary" id="article">
         <div class="container">
             <div class="row">
@@ -261,11 +270,11 @@
                     <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a style="color:white;" href="https://twitter.com/gigglesshitblog">Twitter</a>, <a style="color:white;" href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a style="color:white;" href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
         		</div><!-- ./col-md-8 -->
 
-<!-- ADDITIONAL BLOG POSTS ================================================================================================================================== -->
+<!-- ADDITIONAL BLOG POSTS ============================================================================================================================== -->
                 <div class="col-md-4 text-center">
                 	<h2>You May Also Like...</h2>
                     <h3>Click the images below</h3>
-<!-- ADDITIONAL BLOG POST 1 ================================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 1 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 1 image" src="../img/portfolio/announcement.jpg" data-toggle="modal" data-target="#myModal-1">
@@ -309,7 +318,7 @@
                         </div><!-- ./modal-dialog -->
                     </div><!-- ./modal -->
                     <hr class="light">
-<!-- ADDITIONAL BLOG POST 2 ================================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 2 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 2 image" src="../img/portfolio/watermelon.jpg" data-toggle="modal" data-target="#myModal-2">
@@ -350,7 +359,7 @@
                         </div><!-- ./modal-dialog -->
                     </div><!-- ./modal -->
                     <hr class="light">
-<!-- ADDITIONAL BLOG POST 3 ================================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 3 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 3 image" src="../img/portfolio/peanut.jpg" data-toggle="modal" data-target="#myModal-3">
@@ -399,7 +408,7 @@
                         </div><!-- ./modal-dialog -->
                     </div><!-- ./modal -->
                     <hr class="light">
-<!-- ADDITIONAL BLOG POST 4 ================================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 4 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 4 image" src="../img/portfolio/the-bomb-1.jpg" data-toggle="modal" data-target="#myModal-4">
@@ -439,7 +448,7 @@
                         </div><!-- ./modal-dialog -->
                     </div><!-- ./modal -->
                     <hr class="light">
-<!-- ADDITIONAL BLOG POST 5 ================================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 5 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 5 image" src="../img/portfolio/hospital.jpg" data-toggle="modal" data-target="#myModal-5">
@@ -476,7 +485,7 @@
                         </div><!-- ./modal-dialog -->
                     </div><!-- ./modal -->
                     <hr class="light">
-<!-- ADDITIONAL BLOG POST 6 ================================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 6 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 6 image" src="../img/portfolio/xmas.jpg" data-toggle="modal" data-target="#myModal-6">
@@ -522,7 +531,7 @@
                     </div><!-- ./modal -->
                     <hr class="light">
 
-<!-- GOOGLE ADSENSE #2 ====================================================================================================================================== -->
+<!-- GOOGLE ADSENSE #2 ================================================================================================================================== -->
 					<?php
                         $googleadsense2 =
                         '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -542,9 +551,9 @@
             </div><!-- ./row -->
         </div><!-- ./container -->
     </section><!-- ./article -->
-<!-- END MAIN BLOG POST SECTION & ADDITIONAL POSTS ========================================================================================================== -->
+<!-- END MAIN BLOG POST SECTION & ADDITIONAL POSTS ====================================================================================================== -->
 
-<!-- START FB COMMENTS SECTION ============================================================================================================================== -->
+<!-- START FB COMMENTS SECTION ========================================================================================================================== -->
 <section class="bg-dark">
         <div class="container">
         	<div class="row">
@@ -555,9 +564,9 @@
      	</div><!-- ./container -->
 </section><!-- ./bg-dark -->
 
-<!-- END FB COMMENTS SECTION ================================================================================================================================ -->
+<!-- END FB COMMENTS SECTION ============================================================================================================================ -->
     
-<!-- START RECOMMENDED RESOURCES SECTION ==================================================================================================================== -->
+<!-- START RECOMMENDED RESOURCES SECTION ================================================================================================================ -->
     <section id="sites">
     	<div class="container-fluid">
         	<h2 class="text-center">Highly Recommended Resources for my Readers</h2>
@@ -586,15 +595,15 @@
             </div><!-- ./row -->
       	</div><!-- ./container-fluid -->
   	</section><!-- ./sites -->
-<!-- END RECOMMENDED RESOURCES SECTION ====================================================================================================================== -->
+<!-- END RECOMMENDED RESOURCES SECTION ================================================================================================================== -->
 
-<!-- START ADSENSE SECTION ================================================================================================================================== -->
+<!-- START ADSENSE SECTION ============================================================================================================================== -->
     <section class="bg-primary">
         <div class="container">
         	<div class="row">
             	<div class="col-lg-12 text-center">
 
-<!-- GOOGLE ADSENSE #3 ====================================================================================================================================== -->
+<!-- GOOGLE ADSENSE #3 ================================================================================================================================== -->
 					<?php
                     $googleadsense3 =
                     '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -614,9 +623,9 @@
 			</div><!-- ./row -->
         </div><!-- ./container -->
     </section><!-- ./bg-dark -->
-<!-- END ADSENSE SECTION ==================================================================================================================================== -->
+<!-- END ADSENSE SECTION ================================================================================================================================ -->
 
-<!-- START CONTACT SECTION ================================================================================================================================== -->
+<!-- START CONTACT SECTION ============================================================================================================================== -->
     <div class="container-fluid bg-dark text-center" style="padding-top:20px;" id="contact">
       	<h2 class="section-heading">Drop me a Line</h2>
       	<hr class="primary">
@@ -624,9 +633,9 @@
       	<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
       	<p><a href="mailto:evanmarshall1986@gmail.com">EMAIL ME!</a></p>
  	</div>
-<!-- END CONTACT SECTION ==================================================================================================================================== -->
+<!-- END CONTACT SECTION ================================================================================================================================ -->
     
-<!-- START SOCIAL ACCOUNTS SECTION ========================================================================================================================== -->
+<!-- START SOCIAL ACCOUNTS SECTION ====================================================================================================================== -->
     <section id="social">
         <div class="container">
             <div class="row">
@@ -662,22 +671,22 @@
             </div>
         </div>
     </section>
-<!-- END SOCIAL ACCOUNTS SECTION ========================================================================================================================== -->
+<!-- END SOCIAL ACCOUNTS SECTION ======================================================================================================================== -->
     
 
-<!-- MINIFIED BOOTSTRAP JQUERY ===============================================================================================================================--><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- MINIFIED BOOTSTRAP JQUERY ========================================================================================================================== --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-<!--  MINIFIED BOOTSTRAP JAVASCRIPT ========================================================================================================================= --> 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+<!--  MINIFIED BOOTSTRAP JAVASCRIPT ===================================================================================================================== --> 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-<!--  PLUGIN JAVASCRIPT ===================================================================================================================================== -->
+<!--  PLUGIN JAVASCRIPT ================================================================================================================================= -->
     <script src="../js/jquery.easing.min.js"></script>
     <script src="../js/build/jquery.fittext.min.js"></script>
     <script src="../js/wow.min.js"></script>
 
-<!--  CUSTOM THEME JAVASCRIPT =============================================================================================================================== -->
+<!--  CUSTOM THEME JAVASCRIPT =========================================================================================================================== -->
     <script src="../js/build/creative.min.js"></script>
 
 </body>
-<!-- END BODY SECTION ======================================================================================================================================= -->
+<!-- END BODY SECTION =================================================================================================================================== -->
 
 </html>
