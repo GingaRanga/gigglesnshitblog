@@ -353,7 +353,7 @@
 
 					<p class="text-faded">Yeah probably not the best idea, but believe me, it was intriguing. Instead we begrudgingly pulled up to the traffic stop like the good obedient citizens we are, I rolled down the window, and the officer flashed his light in. I didn’t realize it at the time, but the officer probably had his own thoughts the instant his flashlight illuminated our vehicle: </p>
 
-                        <blockquote>“Two citizens, visibly distressed, messy hair, dishevelled clothing, maybe domestic         dispute, ask the driver if he has been drinking, ask the woman in the passenger seat if everything is alright, put your hand on your gun  and… hold on.”</blockquote>
+                        <blockquote>“Two citizens, visibly distressed, messy hair, dishevelled clothing, maybe domestic         dispute, ask the driver if he has been drinking, ask the woman in the passenger seat if everything is alright, put your hand on your gun  and... hold on.”</blockquote>
 
                     <p class="text-faded">Then he shined the light into the back seat where a baby was peacefully sleeping, immediately understands (must be a father himself) and says with a sympathetic tone:</p>
 

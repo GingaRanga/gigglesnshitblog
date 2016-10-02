@@ -18,13 +18,17 @@
     <?php include_once("php/analyticstracking.php") ?>
     
 <!-- GOOGLE PAGE LEVEL ADS ============================================================================================================================== -->
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-	  (adsbygoogle = window.adsbygoogle || []).push({
-		google_ad_client: "ca-pub-8526023922334594",
-		enable_page_level_ads: true
-	  });
-	</script>      
+	<?php
+    	$googleadsense0 =
+			'<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<script>
+			  (adsbygoogle = window.adsbygoogle || []).push({
+				google_ad_client: "ca-pub-8526023922334594",
+				enable_page_level_ads: true
+			  });
+			</script>'; 
+    	echo $googleadsense0;
+	?>        
 
 <!-- FAVICONS =============================================================================================================================================== -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
