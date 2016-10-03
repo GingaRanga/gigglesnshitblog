@@ -257,22 +257,6 @@
           		<h2 class="text-center bg-dark" style="margin:0; padding:15px 0;">Click the images below to access the posts</h2>
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="pages/blog-1.php?id=1" class="portfolio-box">
-                        <img src="img/portfolio/announcement.jpg" class="img-responsive" alt="blog post 1">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    "Shit, I'm Pregnant..."
-                                </div>
-                                <div class="project-name">
-                                    March 20<sup>th</sup>, 2016
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-2.php?id=2" class="portfolio-box">
                         <img src="img/portfolio/watermelon.jpg" class="img-responsive" alt="blog post 2">
                         <div class="portfolio-box-caption">
@@ -448,6 +432,22 @@
                  	</a>
              	</div>
                 
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-13.php?id=13" class="portfolio-box">
+                        <img src="img/portfolio/beeds.jpg" class="img-responsive" alt="blog post 13">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "Summer in the Six: Part II"
+                                </div>
+                                <div class="project-name">
+                                    October 2<sup>nd</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
             </div>
         </div>
     </section>
@@ -548,7 +548,7 @@
                	</div><!-- ./col-lg-12 -->     
 			</div><!-- ./row -->
         </div><!-- ./container -->
-    </section><!-- ./bg-dark -->
+    </section><!-- ./bg-primary -->
 <!-- END ADSENSE SECTION ==================================================================================================================================== -->
 
 <!-- START CONTACT SECTION ================================================================================================================================== -->
