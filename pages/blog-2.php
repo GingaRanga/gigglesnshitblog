@@ -145,8 +145,6 @@
 <!-- START SOCIAL NAV SECTION =========================================================================================================================== -->                       
 	    <nav id="mainNav" role="navigation" class="social navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
-            <div class="row">
-            <div class="col-lg-12">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -186,8 +184,6 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-            </div>
-            </div>
         </div>
         <!-- /.container-fluid -->
     </nav>
@@ -237,8 +233,8 @@
             <div class="row">
                 <div class="col-md-8 text-center">
 
-                	<h1 itemprop="name">"The Watermelon Incident..."</h1>
-                    <h2 class="section-heading">March 28th 2016</h2>
+                	<h2 itemprop="name">"The Watermelon Incident..."</h2>
+                    <h3 class="section-heading">March 28th 2016</h3>
 
                     <hr class="light">
 
@@ -272,7 +268,7 @@
   						</div>
 					</div>
 
-                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a style="color:white;" href="https://twitter.com/gigglesshitblog">Twitter</a>, <a style="color:white;" href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a style="color:white;" href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                 </div>
 
