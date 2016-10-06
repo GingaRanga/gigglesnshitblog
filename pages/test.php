@@ -150,6 +150,9 @@
 			</ul>
 			<p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
 			<p>Read the <a style="color:black;" href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+			<button type="button" class="btn btn-success">Change User</button>
+			<!-- TEST JAVASCRIPT =============================================================================================================================== -->
+			<script src="../js/main.js"></script> 
 		</div>
 	</section>
 	<!-- NOTES: So, your heading text has been changed to "Hello world!" using JavaScript. We did this by first using a function called querySelector() to grab a reference to our heading, and store it in a variable called myHeading. querySelector() grabs first instance of the tag. After that, we set the value of the myHeading variable's textContent property (which represents the content of the heading) to "Hello world!". -->
@@ -203,9 +206,6 @@
         </div>
     </section>
 <!-- END SOCIAL ACCOUNTS SECTION =================================================================================================================== -->
-   
-<!-- TEST JAVASCRIPT =============================================================================================================================== -->
-   	<script src="../js/main.js"></script> 
 
 <!-- MINIFIED BOOTSTRAP JQUERY ===================================================================================================================== --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 

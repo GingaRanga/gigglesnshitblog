@@ -53,7 +53,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Blog Gallery" />
     <meta property="og:description" content="Check out the latest photography from Giggles N Shit Blog!" />
-    <meta property="og:image" content="http://www.gigglesnshit.com/img/gallery/pointpleasanttree-scaled.jpg" />
+    <meta property="og:image" content="http://www.gigglesnshit.com/img/gallery/destruction-scaled.jpg" />
     <meta property="fb:app_id" content="970981369664540"/>
     <meta property="og:site_name" content="Giggles N Shit Blog"/>
 
@@ -174,11 +174,11 @@
                     </li>
                     <li>
                     	<!-- PINTEREST -->
-                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com/pages/gallery.php&media=http://www.gigglesnshit.com/img/gallery/pointpleasanttree-scaled.jpg&description=Check%20out%20the%20latest%20photography%20from%20Giggles%20N%20Shit%20Blog%21" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
+                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com/pages/gallery.php&media=http://www.gigglesnshit.com/img/gallery/destruction-scaled.jpg&description=Check%20out%20the%20latest%20photography%20from%20Giggles%20N%20Shit%20Blog%21" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
                     </li>
                     <li>
                     	<!-- LINKEDIN -->
-                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com/pages/gallery.php&media=http://www.gigglesnshit.com/img/gallery/pointpleasanttree-scaled.jpg&title=Giggles%20N%20Shit%20Blog%20Gallery&summary=Check%20out%20the%20latest%20photography%20from%20Giggles%20N%20Shit%20Blog%21" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
+                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com/pages/gallery.php&media=http://www.gigglesnshit.com/img/gallery/destruction-scaled.jpg&title=Giggles%20N%20Shit%20Blog%20Gallery&summary=Check%20out%20the%20latest%20photography%20from%20Giggles%20N%20Shit%20Blog%21" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
                     </li>
                     <li style="color:black;">
                     	<!-- PAGE TOP -->
@@ -235,10 +235,39 @@
 				<h2 itemprop="name">Giggles N Shit Gallery</h2>
 				<h3 class="section-heading">*Click on images to view full size*</h3>
 				<hr class="light">
-<!-- IMAGE #1  ===================================================================================================================================== -->
-				<!-- Img trigger modal -->
 				<div class="container">
 					<div class="row">
+<!-- IMAGE #1  ===================================================================================================================================== -->
+						<!-- Img trigger modal -->
+						<div class="col-lg-4">
+							<div class="thumbnail">
+								<img class="img-responsive" alt="image 7" src="../img/gallery/destruction-scaled.jpg" data-toggle="modal" data-target="#myModal-7">
+								<div class="caption">
+									<h3>Progress</h3>
+									<h4>This photo was taken in Kentville, NS. Isla's sitting up on her own...</h4>
+								</div><!-- ./caption -->
+							</div><!-- ./thumbail -->
+							<!-- Modal -->
+							<div class="modal fade" id="myModal-7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
+								<div class="modal-dialog modal-lg" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h3 class="modal-title" id="myModalLabel">Progress</h3>
+											<h4>This photo was taken in Kentville, NS. Isla's sitting up on her own and tearing apart her "Sit to Stand - Learning Walker." Two bottom teeth have popped out to party and I am sure she'll be walking in no time!</h4>
+										</div><!-- ./modal-header -->
+										<div class="modal-body">
+										<img src="../img/gallery/destruction.jpg" alt="image 1" class="img-responsive">
+										</div><!-- ./modal-body -->
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div><!-- ./modal-footer -->
+									</div><!-- .modal-content -->
+								</div><!-- ./modal-dialog -->
+							</div><!-- ./modal -->
+						</div><!-- ./col-lg-4 -->
+<!-- IMAGE #2  ===================================================================================================================================== -->
+						<!-- Img trigger modal -->
 						<div class="col-lg-4">
 							<div class="thumbnail">
 								<img class="img-responsive" alt="image 1" src="../img/gallery/pointpleasanttree-scaled.jpg" data-toggle="modal" data-target="#myModal-1">
@@ -266,7 +295,7 @@
 								</div><!-- ./modal-dialog -->
 							</div><!-- ./modal -->
 						</div><!-- ./col-lg-4 -->
-<!-- IMAGE #2  ===================================================================================================================================== -->
+<!-- IMAGE #3  ===================================================================================================================================== -->
 						<!-- Img trigger modal -->
 						<div class="col-lg-4">
 							<div class="thumbnail">
@@ -295,7 +324,7 @@
 								</div><!-- ./modal-dialog -->
 							</div><!-- ./modal -->
 						</div><!-- ./col-lg-4 -->
-<!-- IMAGE #3  ===================================================================================================================================== -->
+<!-- IMAGE #4  ===================================================================================================================================== -->
 						<!-- Img trigger modal -->
 						<div class="col-lg-4">
 							<div class="thumbnail">
@@ -324,7 +353,7 @@
 								</div><!-- ./modal-dialog -->
 							</div><!-- ./modal -->
 						</div><!-- ./col-lg-4 -->
-<!-- IMAGE #4  ===================================================================================================================================== -->
+<!-- IMAGE #5  ===================================================================================================================================== -->
 						<!-- Img trigger modal -->
 						<div class="col-lg-4">
 							<div class="thumbnail">
@@ -353,7 +382,7 @@
 								</div><!-- ./modal-dialog -->
 							</div><!-- ./modal -->
 						</div><!-- ./col-lg-4 -->
-<!-- IMAGE #5  ===================================================================================================================================== -->
+<!-- IMAGE #6  ===================================================================================================================================== -->
 						<!-- Img trigger modal -->
 						<div class="col-lg-4">
 							<div class="thumbnail">
@@ -382,7 +411,7 @@
 								</div><!-- ./modal-dialog -->
 							</div><!-- ./modal -->
 						</div><!-- ./col-lg-4 -->
-<!-- IMAGE #6  ===================================================================================================================================== -->
+<!-- IMAGE #7  ===================================================================================================================================== -->
 						<!-- Img trigger modal -->
 						<div class="col-lg-4">
 							<div class="thumbnail">
@@ -477,7 +506,7 @@
              	</div><!-- ./col-lg-6 -->
               	<div class="col-lg-6 text-center">
                     <div class="thumbnail">
-                        <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.png"></a>
+                        <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.jpg"></a>
                         <div class="caption">
                             <h3>Health Unlocked</h3>
                             <hr>

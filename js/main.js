@@ -25,3 +25,51 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','../img/firefox-icon.png');
     }
 };
+/* 
+	We retrieve the value of the image's src attribute.
+	We use a conditional to check whether the src value is equal to the path to the original image:
+	If it is, we change the src value to the path to the 2nd image, forcing the other image to be loaded inside the <image> element.
+	If it isn't (meaning it must already have changed), we change the src value back to the original image path, to flip it back to how it was originally.
+*/
+
+//EXAMPLE 3
+var myButton = document.querySelector('button');
+var myHeading = document.querySelector('h1');
+
+function setUserName() {
+  var myName = prompt('Please enter your name.');
+  localStorage.setItem('name', myName);
+  myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+}
+
+if(!localStorage.getItem('name')) {
+  setUserName();
+} else {
+  var storedName = localStorage.getItem('name');
+  myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
+}
+
+myButton.onclick = function() {
+  setUserName();
+};
+/*
+	This function contains a prompt() function, which brings up a dialog box, a bit like alert() except that prompt() asks the user to enter some data, and stores that data in a variable after the user presses OK. In this case, we are asking the user to enter their name. Next, we call on an API called localStorage, which allows us to store data in the browser and retrieve it later on. We use localStorage's setItem() function to create and store a data item called 'name', and set its value to the myName variable that contains the name the user entered. Finally, we set the textContent of the heading to a string, plus the user's name.
+	This block first uses the negation operator (logical NOT) to check whether the name data item exists. If not, the setUserName() function is run to create it. If so (that is, the user set it during a previous visit), we retrieve the stored name using getItem() and set the textContent of the heading to a string, plus the user's name, the same as we did inside setUserName().
+	Finally, put the below onclick event handler on the button, so that when clicked the setUserName() function is run. This allows the user to set a new name whenever they want by pressing the button
+*/
+
+/*I.E.
+	var para = document.querySelector('p');
+
+	para.addEventListener('click', updateName);
+
+	function updateName() {
+	  var name = prompt('Enter a new name');
+	  para.textContent = 'Player 1: ' + name;
+	}
+	Here we are selecting a text paragraph (line 1), then attaching an event listener to it (line 3) so that when the paragraph is clicked, the updateName() code block (lines 5–8) is run. The updateName() code block (these types of reusable code block are called "functions") asks the user for a new name, and then inserts that name into the paragraph to update the display.
+*/
+
+/*
+	Server-side code on the other hand is run on the server, then its results are downloaded and displayed in the browser. Examples of popular server-side web languages include PHP, Python, Ruby, and ASP.NET. And JavaScript! JavaScript can also be used as a server-side language, for example in the popular Node.js environment
+*/	

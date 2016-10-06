@@ -683,7 +683,7 @@
                 </div><!-- ./col-lg-6 -->
                 <div class="col-lg-6 text-center">
                     <div class="thumbnail">
-                        <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.png"></a>
+                        <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.jpg"></a>
                         <div class="caption">
                             <h3>Health Unlocked</h3>
                             <hr>
