@@ -101,4 +101,17 @@
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
         font-size: 22px;
     }
+	
+	.modal-dialog {
+		  width: 100%;
+		  height: 100%;
+		  margin: 0;
+		  padding: 0;
+	}
+
+	.modal-content {
+		  height: auto;
+		  min-height: 100%;
+		  border-radius: 1;
+	}
 }

@@ -132,6 +132,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    <li>
+                        <a href="pages/gallery.php">Gallery</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -199,7 +202,7 @@
     </header>
 <!-- END HERO SECTION ======================================================================================================================================= -->
 
-<!-- START GOOGLE ADSENSE #1 SECTION  ======================================================================================================================= -->
+<!-- START GOOGLE ADSENSE #1 SECTION  ============================================================================================================== -->
 	<section class="bg-dark">
         <div class="container">
         	<div class="row">
@@ -222,7 +225,7 @@
          	</div><!-- ./row -->
       	</div><!-- ./container -->
 	</section><!-- ./bg-dark --> 
-<!-- END GOOGLE ADSENSE #1 SECTION  ========================================================================================================================= -->
+<!-- END GOOGLE ADSENSE #1 SECTION  ================================================================================================================ -->
 
 <!-- START WHY WRITE BLOG SECTION =========================================================================================================================== -->
     <section class="bg-primary" id="about">
@@ -453,30 +456,31 @@
     </section>
 <!-- END RECENT POSTS SECTION =============================================================================================================================== -->
     
-<!-- START GOOGLE ADSENSE #2 SECTION  ======================================================================================================================= -->
+<!-- GOOGLE ADSENSE #2 ============================================================================================================================= -->
 	<section class="bg-dark">
         <div class="container">
         	<div class="row">
-            	<div class="col-lg-12 text-center">				
+            	<div class="col-lg-12 text-center">		
 					<?php
-                        $googleadsense2 =
-                        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                        <!-- Google Ad -->
-                        <ins class="adsbygoogle"
-                            style="display:block"
-                            data-ad-client="ca-pub-8526023922334594"
-                            data-ad-slot="6719400463"
-                            data-ad-format="auto"></ins>
-                        <script>
-                            (adsbygoogle = window.adsbygoogle || []).push({});
-                        </script>';
-                        echo $googleadsense2;
-                    ?>
-             	</div><!-- ./col-lg-12 -->
-         	</div><!-- ./row -->
-      	</div><!-- ./container -->
-	</section><!-- ./bg-dark --> 
-<!-- END GOOGLE ADSENSE #2 SECTION  ========================================================================================================================= -->
+						$googleadsense2 =
+						'<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- Google Ad Aside -->
+
+						<ins class="adsbygoogle"
+						style="display:block"
+						data-ad-client="ca-pub-8526023922334594"
+						data-ad-slot="6719400463"
+						data-ad-format="auto"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>';
+						echo $googleadsense2;
+					?>
+				</div><!-- ./col-lg-12 -->
+			</div><!-- ./row -->
+		</div><!-- ./container -->
+	</section><!-- ./bg-dark -->
+<!-- END GALLERY & ADSENSE ========================================================================================================================= -->
 
 <!-- START FB COMMENTS SECTION ============================================================================================================================== -->
 <section class="bg-primary">
