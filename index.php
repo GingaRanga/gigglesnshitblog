@@ -513,7 +513,7 @@
 
                 <div class="col-lg-6 text-center">
                     <div class="thumbnail">
-                        <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.png"></a>
+                        <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.jpg"></a>
                         <div class="caption">
                             <h3>Health Unlocked</h3>
                             <hr>
@@ -608,7 +608,7 @@
 <!--  MINIFIED BOOTSTRAP JAVASCRIPT ========================================================================================================================= --> 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
 <!--  PLUGIN JAVASCRIPT ===================================================================================================================================== -->
-    <script src="js/build/jquery.easing.min.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/build/jquery.fittext.min.js"></script>
     <script src="js/wow.min.js"></script>
 
