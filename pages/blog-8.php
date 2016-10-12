@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- START HEAD SECTION ================================================================================================================================= -->
 <head>
 
     <meta charset="utf-8">
@@ -8,15 +9,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="NOODP">
-    <meta name="description" content="It's going to get a little crazy on this blog! I am a new father, loving husband, and stay at home 'fommy.' Join me on my journey as I discuss hot-button topics and re-tell the mostly humorous side of being a family-man.">
     <meta name="keywords" content="baby products, baby, baby's, baby wear, baby clothing, parent portal, parents, infant, newly baby, newborn baby, liver, disease, liver disease, biliary atresia, giggles, shit, giggles n shit, blog, parent, father, fommy, stay at home, funny, humour, dad, newborn, baby, nursery, web development, tech">
     <meta name="author" content="Evan Marshall">
     <title>Bumps in the Road</title>
 
- <!-- GOOGLE ANALYTICS ================================================================================================================================================== -->
+<!-- GOOGLE ANALYTICS =================================================================================================================================== -->
     <?php include_once("../php/analyticstracking.php") ?>
 
-<!-- FAVICONS ================================================================================================================================================ -->
+<!-- GOOGLE PAGE LEVEL ADS ============================================================================================================================== -->
+    <?php
+        $googleadsense0 =
+            '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-8526023922334594",
+                enable_page_level_ads: true
+              });
+            </script>'; 
+        echo $googleadsense0;
+    ?>     
+
+<!-- FAVICONS =========================================================================================================================================== -->
     <link rel="apple-touch-icon" sizes="57x57" href="../favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../favicon.ico/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../favicon.ico/apple-icon-72x72.png">
@@ -39,7 +52,7 @@
     <meta property="og:url" content="http://www.gigglesnshit.com/pages/blog-8.php" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Bumps in the Road" />
-    <meta property="og:description" content="When you have a sick child it can be tricky to determine whether fussiness is due to their disease or if fussiness is due to normal baby things... Check out the 8th post on Giggles N Shit Blog" />
+    <meta property="og:description" content="In the eighth blog post I talk about a nighttime disaster and a run in with the cops..." />
     <meta property="og:image" content="http://www.gigglesnshit.com/img/portfolio/car_seat.jpg" />
     <meta property="fb:app_id" content="970981369664540"/>
     <meta property="og:site_name" content="Giggles N Shit Blog"/>
@@ -49,20 +62,21 @@
     <meta name="twitter:site" content="@gigglesshitblog" />
     <meta name="twitter:creator" content="@evanmarshall" />
 
-<!-- MINIFIED BOOTSTRAP CSS ====================================================================================================================================== -->
+<!-- MINIFIED BOOTSTRAP CSS ============================================================================================================================= -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 
-<!-- FONT-AWESOME ================================================================================================================================================ -->
+<!-- FONT-AWESOME ======================================================================================================================================= -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 
-<!-- PLUGIN CSS ================================================================================================================================================== -->
+<!-- PLUGIN CSS ========================================================================================================================================= -->
     <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
 
-<!-- CUSTOM CSS ================================================================================================================================================== -->
+<!-- CUSTOM CSS ========================================================================================================================================= -->
     <link rel="stylesheet" href="../css/creative.min.css" type="text/css">
     <link href="../css/media.maximum.768.min.css" rel="stylesheet" media="screen and (max-width:768px)">
     <link href="../css/media.minimum.768.min.css" rel="stylesheet" media="screen and (min-width:768px)">
     <link href="../css/media.minimum.992.min.css" rel="stylesheet" media="screen and (min-width:992px)">
+    <link href="../css/media.maximum.768.landscape.css" rel="stylesheet" media="screen and (orientation:landscape)">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,19 +86,25 @@
     <![endif]-->
 
 </head>
+<!-- END HEAD SECTION =================================================================================================================================== -->
 
+<!-- START BODY SECTION ================================================================================================================================= -->
 <body id="page-top" itemscope itemtype="http://schema.org/Blog">
 
-<!-- GOOGLE ADSENSE ================================================================================================================================================== -->
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8526023922334594",
-        enable_page_level_ads: true
-      });
+<!-- START FB COMMENTS JAVASCRIPT ======================================================================================================================= -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=970981369664540";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
     </script>
+<!-- END FB COMMENTS JAVASCRIPT ========================================================================================================================= -->
 
-<!-- NAV ================================================================================================================================================ -->
+<!-- START TOP NAV ====================================================================================================================================== -->
     <nav id="mainNav" role="navigation" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -105,15 +125,24 @@
                     <li>
                         <a href="../index.php">Homepage</a>
                     </li>
+                    <li>
+                        <a class="page-scroll" href="#article">Main Story</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sites">Recommended Sites</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
+<!-- END TOP NAV SECTION ================================================================================================================================ -->
 
-<!-- SOCIAL SHARE BUTTONS ================================================================================================================================================ -->
-
+<!-- START SOCIAL NAV SECTION =========================================================================================================================== -->
 	    <nav id="mainNav" role="navigation" class="social navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -132,22 +161,22 @@
             <div class="social text-center collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 <ul class="social-list nav navbar-nav navbar-right">
                     <li>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/pages/blog-8.php" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/&title=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a>
+                        <a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/pages/blog-8.php&title=In%20the%20eighth%20blog%20post%20I%20talk%20about%20a%20nighttime%20disaster%20and%20a%20run%20in%20with%20the%20cops%2E%2E%2E" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a>
                     </li>
                     <li>
-                        <a href="http://twitter.com/home?status=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog%20http://www.gigglesnshit.com/" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a>
+                        <a href="http://twitter.com/home?status=Check%20out%20the%20latest%20post%2C%20%22Bumps%20in%20the%20Road%22%20on%20http://www.gigglesnshit.com/pages/blog-8.php" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a>
+                        <a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/pages/blog-8.php" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a>
                     </li>
                     <li>
-                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&description=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
+                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com/pages/blog-8.php&media=http://www.gigglesnshit.com/img/portfolio/car_seat.jpg&description=In%20the%20eighth%20blog%20post%20I%20talk%20about%20a%20nighttime%20disaster%20and%20a%20run%20in%20with%20the%20cops%2E%2E%2E" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
                     </li>
                     <li>
-                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&title=Giggles%20N%20Shit%20Blog&summary=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
+                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com/pages/blog-8.php&media=http://www.gigglesnshit.com/img/portfolio/car_seat.jpg&title=Giggles%20N%20Shit%20Blog&summary=In%20the%20eighth%20blog%20post%20I%20talk%20about%20a%20nighttime%20disaster%20and%20a%20run%20in%20with%20the%20cops%2E%2E%2E" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
                     </li>
                     <li style="color:black;">
                     	<a href="#page-top" class="back-to-top"><i class="fa fa-lg fa-arrow-circle-up"></i></a> back2top
@@ -158,164 +187,53 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
-    <!--
-    
-    <nav class="social text-center navbar navbar-default navbar-fixed-bottom">
-    	<div class="container-fluid">
-        	<h2 style="color:#F05F40;">Did this read tickle your fancy? Please share...</h2>
-        	<ul class="social-list">
-            	<!-- FACEBOOK 
-            	<li><a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a></li>
-                <!-- REDDIT 
-            	<li><a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/&title=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a></li>
-                <!-- TWITTER 
-                <li><a href="http://twitter.com/home?status=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog%20http://www.gigglesnshit.com/" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
-                <!-- GOOGLE PLUS 
-                <li><a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a></li>
-                <!-- PINTEREST 
-                <li><a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&description=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a></li>
-                <!-- LINKEDIN
-                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com&media=http://www.gigglesnshit.com/img/fam-jam.jpg&title=Giggles%20N%20Shit%20Blog&summary=Enjoy%20a%20Good%20Laugh%20on%20Giggles%20N%20Shit%20Blog" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a></li>
-                <!-- BACK TO TOP 
-                <li style="color:black;"><a href="#page-top" class="back-to-top"><i class="fa fa-lg fa-arrow-circle-up"></i></a> back2top</li>
-      		</ul>
-        </div>
-    </nav>
-    
-    -->
-
-<!-- HERO TEXT ================================================================================================================================================ -->
+<!-- END SOCIAL NAV SECTION ============================================================================================================================= -->    
+<!-- START HERO SECTION ================================================================================================================================= -->
     <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <h1>Giggles N Shit</h1>
                 <hr>
+                <p>It's going to get a little crazy on this blog! I am a new father, loving husband, and stay at home 'fommy.' Join me on my journey as I discuss hot-button topics and re-tell the mostly humourous side of being a family-man.</p>
                 <a href="https://www.instagram.com/gigglesnshitblog/" class="btn btn-primary btn-xl page-scroll">#gigglesnshitblog</a>
             </div>
         </div>
     </header>
+<!-- END HERO SECTION =================================================================================================================================== -->
 
-<!-- FACEBOOK LOGIN SECTION ================================================================================================================================================ -->
+<!-- START GOOGLE ADSENSE #1 SECTION  =================================================================================================================== -->
     <section class="bg-dark">
-    	<div class="container-fluid text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">             
+                    <?php
+                        $googleadsense =
+                        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Google Ad -->
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-client="ca-pub-8526023922334594"
+                            data-ad-slot="7357456062"
+                            data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>';
+                        echo $googleadsense;
+                    ?>
+                </div><!-- ./col-lg-12 -->
+            </div><!-- ./row -->
+        </div><!-- ./container -->
+    </section><!-- ./bg-dark --> 
+<!-- END GOOGLE ADSENSE #1 SECTION  ===================================================================================================================== -->
 
-<!-- GOOGLE ADSENSE HERO ================================================================================================================================================ -->
-         	<?php
-
-				$googleadsense =
-				'<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Google Ad -->
-				<ins class="adsbygoogle"
-					style="display:block"
-					data-ad-client="ca-pub-8526023922334594"
-					data-ad-slot="7357456062"
-					data-ad-format="auto"></ins>
-				<script>
-					(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>';
-				echo $googleadsense;
-
-			?><br><br>
-
-        	<script>
-				// This is called with the results from from FB.getLoginStatus().
-				function statusChangeCallback(response) {
-					console.log('statusChangeCallback');
-					console.log(response);
-					// The response object is returned with a status field that lets the
-					// app know the current login status of the person.
-					// Full docs on the response object can be found in the documentation
-					// for FB.getLoginStatus().
-						if (response.status === 'connected') {
-							// Logged into your app and Facebook.
-							testAPI();
-						} else if (response.status === 'not_authorized') {
-							// The person is logged into Facebook, but not your app.
-							document.getElementById('status').innerHTML = 'Please log ' +
-							'into this app.';
-				} else {
-					// The person is not logged into Facebook, so we're not sure if
-					// they are logged into this app or not.
-					document.getElementById('status').innerHTML = 'Please log ' +
-					'into Facebook.';
-					}
-  				}
-
-				// This function is called when someone finishes with the Login
-				// Button.  See the onlogin handler attached to it in the sample
-				// code below.
-				function checkLoginState() {
-					FB.getLoginStatus(function(response) {
-						statusChangeCallback(response);
-					});
-				}
-
-				window.fbAsyncInit = function() {
-				FB.init({
-					appId      : '970981369664540',
-					cookie     : true,  // enable cookies to allow the server to access
-										// the session
-					xfbml      : true,  // parse social plugins on this page
-					version    : 'v2.5' // use graph api version 2.5
-				});
-
-				// Now that we've initialized the JavaScript SDK, we call
-				// FB.getLoginStatus().  This function gets the state of the
-				// person visiting this page and can return one of three states to
-				// the callback you provide.  They can be:
-				//
-				// 1. Logged into your app ('connected')
-				// 2. Logged into Facebook, but not your app ('not_authorized')
-				// 3. Not logged into Facebook and can't tell if they are logged into
-				//    your app or not.
-				//
-				// These three cases are handled in the callback function.
-
-				FB.getLoginStatus(function(response) {
-					statusChangeCallback(response);
-				});
-
-				};
-
-				// Load the SDK asynchronously
-				(function(d, s, id) {
-					var js, fjs = d.getElementsByTagName(s)[0];
-					if (d.getElementById(id)) return;
-					js = d.createElement(s); js.id = id;
-					js.src = "//connect.facebook.net/en_US/sdk.js";
-					fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));
-
-				// Here we run a very simple test of the Graph API after login is
-				// successful.  See statusChangeCallback() for when this call is made.
-				function testAPI() {
-					console.log('Welcome!  Fetching your information.... ');
-					FB.api('/me', function(response) {
-						console.log('Successful login for: ' + response.name);
-						document.getElementById('status').innerHTML =
-						'Thanks for logging in, ' + response.name + '!';
-					});
-				}
-			</script>
-
-			<!-- Facebook Login Button -->
-
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
-
-			<div id="status"></div>
-
-		</div>
-	</section>
-
-<!-- BLOG POST ARTICLE ================================================================================================================================================ -->
-    <section class="bg-primary" id="about">
+<!-- START MAIN BLOG POST SECTION & ADDITIONAL POSTS ==================================================================================================== -->
+    <section class="bg-primary" id="article">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 text-center">
 
-                	<h1 itemprop="name">"Bumps in the Road..."</h1>
-                    <h2 class="section-heading">June 7<sup>th</sup>, 2016</h2>
+                	<h2 itemprop="name">"Bumps in the Road..."</h2>
+                    <h3 class="section-heading">June 7<sup>th</sup>, 2016</h3>
 
                     <hr class="light">
 
@@ -375,75 +293,16 @@
 
                     <hr class="light" style="width:50%;">
 
-                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a style="color:white;" href="https://twitter.com/gigglesshitblog">Twitter</a>, <a style="color:white;" href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a style="color:white;" href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                 </div>
 
-<!-- ADDITIONAL BLOG POSTS ================================================================================================================================================ -->
+<!-- ADDITIONAL BLOG POSTS ============================================================================================================================== -->
                 <div class="col-md-4 text-center">
                 	<h2>You May Also Like...</h2>
                     <h3>Click the images below</h3>
 
-                    <!-- Img trigger modal -->
-                    <div class="thumbnail">
-                        <img class="img-responsive" alt="post 1 image" src="../img/portfolio/announcement.jpg" data-toggle="modal" data-target="#myModal-1">
-                        <div class="caption">
-                            <h3>"Shit, I'm Pregnant..."</h3>
-                            <h4>March 20<sup>th</sup> 2016</h4>
-                            <hr>
-                            <p>It’s early April of 2015. My wife Katie and I are on one of our leisurely drives around town looking at random houses while dreaming, critiquing, and scoffing at the sites...</p>
-                        </div>
-                  	</div>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h3 class="modal-title" id="myModalLabel">"Shit, I'm Pregnant..."</h3>
-                                    <h4>March 20<sup>th</sup> 2016</h4>
-
-                                </div>
-                                <div class="modal-body">
-
-                                    <h5>Click <a href="blog-1.php">here</a> for full article or read "text-only" version below</h5>
-                                    <hr>
-
-                                    <p>It’s early April of 2015. My wife Katie and I are on one of our leisurely drives around town looking at random houses while dreaming, critiquing, and scoffing at the sites. I am not sure if this is a normal thing couples do, but when we  have nothing better to do some evenings, we like to hop in our late 2012 Nissan Rogue and drive through neighbourhoods. Sometimes when we see a beautiful house we even slow down, take pictures as the SUV crawls by, and then speed away before people call the cops on us. So far we have not had any jail time so I’d say we are professionals.</p>
-
-                                    <p>On this particular night in April, we were on our way home and we were having a somewhat civil argument. Before I get into details of the argument I will give you a quick run down of our history. I do not want you to think our relationship is doomed because of a silly fight which turned out to be one of the best nights of our relationship (oh the suspense, I know!).</p>
-
-                                    <p>I met Katie in high school in a town/ suburb/ city/ (who knows what the fuck to classify the shit hole where I grew up). Google: “Sack-Vegas” and the first hit will give you a good idea of my roots. Yes that is a “Welcome to the Wonderful Sack-Vegas” sign and yes it was actually a real sign placed by the highway leaving town, which made local the news before it was taken down.
-                                    Go to You Tube and search: “Lower Sackville Promo” and you will find a wonderful video with a very accurate description of my hometown (the narrative is to die for).
-                                    You know what… screw searching for these things… it is 2016 and I am not a moron (some might disagree) so check out the link and embedded video below. I can just see my aunt Juanita saying: “Evan, you said to Google Sack-Vegas and now all of my Facebook friends see my new profile picture of what looks to be a nice, well-formed pair of breasts in the latest Victoria’s Secret bra until they click on it and reveal a hairy, obese man’s ass-crack in a pair of polka dot bros (Seinfeld reference).” Or my mother Ethel saying: “Evan, you said to look-up Lower Sackville Promo on You Tube and now a man named Rasheed from Windows said my computer was infected with viruses and I no longer have a left kidney.” I’ll save you the trouble… </p>
-
-                                    <p>Sorry about that tangent, now back to the main story: we met at Sackville High. I was fresh out of a relationship and my friend, who never knew how to stay away from the “friend-zone,” devised a new (failure) of a scheme to pickup a lady-friend whom he had eyes for. This lady-friend turned out to be friends with my now current and only wife. All he had to do was tell me I was on the list of who she found cute in high school and I was like “BAM! Cat in the bag!” Triple date time with two of my good lads. It was Halloween night and we went out to see one of the worst movies to franchises in existence: “Saw.” You know, the first one, the one where the guy uses a jig-saw to cut off his hand to escape the game. My 4 year old nephew can act better than that for a Klondike bar. The movie went well, my two buddies bitched out and went home afterwards, and Katie had a fabulous idea to keep the night young. “Let’s go trick or treating.” (to many of my friend’s and families’ dismay my trick or treating went on until I was into my early 20s).</p>
-
-                                    <p>So here I am stuck with Katie and two other girls, by myself, trick or treating (i know, rough life, eh?). Problem was I did not have anything to wear, come to think of it, none of us did. We started at Katie’s house and she rummaged through her things and whipped together four costumes. I only remember her costume and mine because obviously they were the two best ones. Katie’s costume was a simple pair of white long john’s and rubber boots and mine ended up being a dress with a tight, pointy elf hat (go figure…). In retrospect the next thing that happened turned out to be a short and meaningful moment in which I will never forget. On our way out to bag ourselves a good bounty of candy I had my first interaction with Katie’s father. Her mother loved me right away, but that is just the type of lovely and personable person she is. Katie’s dad on the other hand is a more reserved individual who believes in the more old school ways of father son-in-law relationships. Truth is he loves his two daughters more than anything in the world and if anyone hurt them they would probably be shot (he has even shown me the collection of guns and bullets he owns and loves to take me to the shooting range, just he and myself and no witnesses). But hey, now that I am a father of a beautiful innocent baby girl, I can completely understand. Now that I have made it into the inner circle I know most of it is a front and deep down he is a big softy. Any who… I think that was anther small tangent… maybe I have a problem. So this moment I will never forget was when I came out of Katie’s room with two of her girlfriends, wearing a green (I think floral patterned) dress with a tight red and yellow elf cap. As I was walking out of the house I walked past the master bedroom where Katie’s father was laying down watching a show. At the time I did not think anything of it because I had no idea who this man was, but in retrospect I am lucky I have been around this long. It is nerve-racking to meet the girlfriend’s father in the first place, but try doing it while dressed up like an idiot, with sweaty palms and a goofy smile on your face. Luckily there was only a quick, “Who the fuck is this dumbass?!” moment, where he was caught off guard just as much as I was and all we could both muster was a quick: “Hey!” with a nod. Come to think of it, I got off easy with her father on several occasions over the last decade due to catching him off guard. Asking him if I could marry his daughter was another one of these occasions, but I will spare you another tangent and mention that in a future blog post. I know, pretty insignificant and small moment there, big guy… but if you guys know Katie’s father or if I described him well enough, I am sure you get how huge that split second was. I doubt in that moment he thought he was seeing the man of his daughter’s dreams.</p>
-
-                                    <p>The rest of the evening went very well. Katie was the first down to earth, funny, sexy girl I had ever met. I was beginning to think that a girl such as this, in Lower Sackville (Nova Scotia, Canada), was a unicorn (see one of my favourite videos describing a unicorn below). </p>
-
-                                    <p>To be honest, I only went on the date as a favour to my “friend-zone” buddy as I was not looking for anything serious at the time. I think the moment I knew this girl was worth a second glance was while we were walking up to our first house for candy. As we were walking, I did not realize (sorry Katie and your family), but I was staring at her perfectly formed, upside-down heart shaped booty being cradled by the tight long-johns like a mother holding a baby in each arm. I realized I was in a trance when Katie looked back at me and boldly said: “Well if you’re going to stare at it you might as well grab it,” to which I giddyingly &copy; obliged. At that moment was the first time I had realized I met my match.</p>
-
-                                    <p>Skip ahead 11 years, past many many more stories, trials and tribulations; back to April 2015. Don’t worry, I am sure the many details of those 11 years will come out in future tangents. Here we are again, arguing about when and if we will ever be ready to start a family (and this is not the first time we had this argument, but it is a memorable one for sure). Truth is, there is never a perfect time. I have known my whole life that I wanted to start a family someday. I would even have 15 kids if it were financially and mentally feasible (when you are not living on a farm). Katie definitely wanted a child or two, but was a little more apprehensive about it than I. You already know my wife has a very endearing potty mouth, but one other thing you do not know is that she has OCD (or C-D-O as she lamely likes to call it because that is alphabetical order). She likes to have every detail planned out and organized. The problem with this and having a child is that they clash. If you are truly serious about diving into the wonderful world of being a parent then you need an ounce of impulsiveness and faith that everything will be alright. When you are up at 4 am, after 4 weeks straight of your baby screeching, whilst knowing you need to be up in an hour to drive to your place of work (so that you can muster out a good zombified 8 hours of bullshit), you definitely need to have faith that everything will be alright. This lackadaisical demeanor is a lot easier for a fly-by-the-seat-of-your-pants type of guy guy like myself, but not so much for a OCD planner. Needless to say, we had some clashing of opinions about when this family thing was gong to start and this night in April 2015 was no exception. We didn’t get anywhere in our argument that night. We ended up storming into the house together and going into separate rooms. I was beginning to wonder if I would be needing Viagra by the time she would be ready, but also knowing I would make that a reality if I kept pushing. I am out in the living room watching a show when I hear Katie having a maniacal laughing fit in the bathroom and calling out my name. After I check that all of the knives are in the knife block and my gun is locked away, I cautiously walk towards the bathroom. She whips up a pregnancy test (in which I dive out of the way of, in fear of urine landing on my face) and there are two blue lines. Oh and you know she ain’t leaving it at one test with all of the false positives running around out there. She opens a drawer and out fall ten more tests all with the same two blue lines (ok, ten is a slight exaggeration for effect, it was probably only one more, but I wouldn’t be surprised if she had a drawer somewhere).</p>
-
-                                    <p>All is forgotten of the aforementioned argument that night, we hold each other with tears in our eyes and laughing due to the irony of what just happened. I may have mustered out: “guess we have no choice now,” as I look nervously over her shoulder at the pair of scissors behind her back….</p>
-
-                                    <p>Just kidding (about the scissors)!</p>
-
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr class="light">
-
+<!-- ADDITIONAL BLOG POST 1 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 2 image" src="../img/portfolio/watermelon.jpg" data-toggle="modal" data-target="#myModal-2">
@@ -487,7 +346,7 @@
 
                                     <p>Peace out!</p>
 
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                                 </div>
                                 <div class="modal-footer">
@@ -499,6 +358,7 @@
 
                     <hr class="light">
 
+<!-- ADDITIONAL BLOG POST 2 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 3 image" src="../img/portfolio/peanut.jpg" data-toggle="modal" data-target="#myModal-3">
@@ -558,7 +418,7 @@
 
                                     <p><strong>P.S.</strong> I now understand why we have no recollection of our births. That shit is traumatic.</p>
 
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                                 </div>
                                 <div class="modal-footer">
@@ -570,6 +430,7 @@
 
                     <hr class="light">
 
+<!-- ADDITIONAL BLOG POST 3 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 4 image" src="../img/portfolio/the-bomb-1.jpg" data-toggle="modal" data-target="#myModal-4">
@@ -611,7 +472,7 @@
 
                                     <p>You will soon see that our little Bambino is one tough SOB and she was damn good at getting me off work, un-planned (arriving a week early and now with a potential health issue). I would prefer to get off work for other reasons, but thank you dear. The holidays were now creeping up, we had just been admitted to the IWK (the bomb hasn't been dropped yet), and we don't even realize how our lives will change, yet again.</p>
 
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                                 </div>
                                 <div class="modal-footer">
@@ -623,6 +484,7 @@
 
                     <hr class="light">
 
+<!-- ADDITIONAL BLOG POST 4 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 5 image" src="../img/portfolio/hospital.jpg" data-toggle="modal" data-target="#myModal-5">
@@ -658,7 +520,7 @@
 
                                     <p>Whoa! If you think that was a lot to take in, try listening to that in real life and try learning that your beautiful little lady could potentially have this disease. Dr. R was very good with his explanation as well as making sure we fully understood. We both nodded, both doctors left the room, and then came the waterworks. We both just let the emotions out. We cried, we held each other, we swore to the high heavens, and kept asking why? Being well versed in the woes of healthcare, we are always frustrated by how much people abuse the gift of health. Smoking, excessive drinking, hard drugs, eating crap, and not exercising to name a few. Most adults that get admitted into the hospital are not innocent in their ailments, some do very little to prevent them from happening and literally suck the life out of the “free” healthcare system we benefit from. Then we have a sweet and innocent new life brought into the world plagued with a disease; it’s not fair. It was one of the hardest pills to swallow, being first time parents and all. It is scary enough having a newborn with all of the unknowns, fears, excitement, and joy, but add a disease into that mix and you are playing a whole new ball game. Thank god I have had my amazing wife by my side for so long and knowing that this is just one more challenge in our relationship. We always face everything head on and together and we were determined that this would not end that. Once we vented and got through that sudden blow, we gathered ourselves and put our guard back up. We knew this was going to be a long trip to the hospital and we would have to be strong for everyone. I mean, who wants a room full of adults hysterically crying? That wouldn’t help anyone. At this point, we knew that there was definitely something wrong with our baby girl, not necessarily Biliary Atresia but definitely something. The rest of the week was dedicated to getting to the bottom of what was causing her jaundice and pale poop. Thank god babies are very resilient, too bad daddy isn’t so much</p>
 
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                                 </div>
                                 <div class="modal-footer">
@@ -670,6 +532,7 @@
 
                     <hr class="light">
 
+<!-- ADDITIONAL BLOG POST 5 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 6 image" src="../img/portfolio/xmas.jpg" data-toggle="modal" data-target="#myModal-6">
@@ -721,7 +584,7 @@
 
                                     <p>That night everyone convinced me to finally leave the hospital, since I could not be by Isla’s side in surgery, and we stayed at the Snillis’ house. Watching some movies, having a beer and sleeping in their comfortable bed (a straw bed would be desirable after two weeks in a single and cot) was much needed. Besides Katie and I jumping and staring at each other intently each time a phone or microwave beeped, it was a pretty straightforward evening. Dr. Superstar had promised to have his staff inform us periodically of surgery updates, which were all: “progressing well.” Finally the final update came from Dr. Superstar himself who called to let us know the surgery went well and that he was ready to meet with us to go over post surgery expectations as well as to see how we were doing. The post surgery recovery stretched through Isla’s first Christmas, but I will talk about this in more detail in my next post. I promise, it will all be good news and then we can get back to the crazy-silly day-to-day shenanigans of Isla and her family!</p>
 
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                                 </div>
                                 <div class="modal-footer">
@@ -733,6 +596,7 @@
 
                     <hr class="light">
 
+<!-- ADDITIONAL BLOG POST 6 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 7 image" src="../img/portfolio/santa.jpg" data-toggle="modal" data-target="#myModal-7">
@@ -782,7 +646,7 @@
 
                                     <p>If you think the poop explosion was bad, you just wait to see what kinds of mischief our little ham has put her parents through, “post explosion.” We are close to Isla’s daddy being home all by his lonesome, Isla starts to develop more of a personality, the night of terror, and much much more. Stay tuned folks!</p>
 
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on Twitter, Facebook or Instagram to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
 
                                 </div>
                                 <div class="modal-footer">
@@ -792,36 +656,49 @@
                         </div>
                     </div>
 
-<!-- GOOGLE ADSENSE PREV POST SECTION ================================================================================================================================================ -->
-                        <?php
+                    <hr class="light">
 
-                            $googleadsense2 =
-                            '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                            <!-- Google Ad Aside -->
+<!-- GOOGLE ADSENSE #2 ================================================================================================================================== -->
+                    <?php
+                        $googleadsense2 =
+                        '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- Google Ad Aside -->
 
-                            <ins class="adsbygoogle"
-                            style="display:block"
-                            data-ad-client="ca-pub-8526023922334594"
-                            data-ad-slot="6719400463"
-                            data-ad-format="auto"></ins>
-                            <script>
-                                (adsbygoogle = window.adsbygoogle || []).push({});
-                            </script>';
-                            echo $googleadsense2;
+                        <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-client="ca-pub-8526023922334594"
+                        data-ad-slot="6719400463"
+                        data-ad-format="auto"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>';
+                        echo $googleadsense2;
+                    ?>
+                </div><!-- ./col-md-4 -->
+            </div><!-- ./row -->
+        </div><!-- ./container -->
+    </section><!-- ./article -->
+<!-- END MAIN BLOG POST SECTION & ADDITIONAL POSTS ====================================================================================================== -->
 
-                        ?>
+<!-- START FB COMMENTS SECTION ========================================================================================================================== -->
+<section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="fb-comments" data-href="http://www.gigglesnshit.com/pages/blog-8.php" data-mobile="Auto-detected" data-colorscheme="dark" data-width="100%" data-order-by="social" data-numposts="10"></div>
+                </div><!-- ./col-lg-12 -->
+            </div><!-- ./row -->
+        </div><!-- ./container -->
+</section><!-- ./bg-dark -->
 
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- END FB COMMENTS SECTION ============================================================================================================================ -->
 
-<!-- RECOMMENDED RESOURCES ================================================================================================================================================ -->
-    <section>
-    	<div class="container-fluid">
-        	<h2 class="text-center">Highly Recommended Resources for my Readers</h2>
+<!-- START RECOMMENDED RESOURCES SECTION ================================================================================================================ -->
+    <section id="sites">
+        <div class="container-fluid">
+            <h2 class="text-center">Highly Recommended Resources for my Readers</h2>
             <hr>
-        	<div class="row">
+            <div class="row">
                 <div class="col-lg-6 text-center">
                     <div class="thumbnail">
                         <a href="http://www.sickboypodcast.com/"><img class="img-responsive" alt="sickboy podcast banner" src="../img/portfolio/sickboy.jpg"></a>
@@ -829,111 +706,113 @@
                             <h3>Sickboy Podcast</h3>
                             <hr>
                             <p>To say the three dudes on this podcast are entertaining is a gross understatement. I started listening to their podcast before Isla was diagnosed with her disease. I was intrigued by the story of one of the hosts actually living with Cystic Fibrosis and having seen him on television in the past; I knew the podcast would be hilarious. The three hosts of Sickboy provide a disambiguation of sickness ranging from adult circumcision to depression to end stage cancer. They take a no holds barred approach and discuss everything under the sun with their guests whom are inflicted with an illnesses. Click the <a href="http://www.sickboypodcast.com/"><strong>logo</strong></a> above to be directed to their site where you can listen to clips, sign up on iTunes, follow on Twitter, Facebook, and Instagram!</p>
-                        </div>
-                  	</div>
-             	</div>
-
-              	<div class="col-lg-6 text-center">
+                        </div><!-- ./caption -->
+                    </div><!-- ./thumbnail -->
+                </div><!-- ./col-lg-6 -->
+                <div class="col-lg-6 text-center">
                     <div class="thumbnail">
                         <a href="https://healthunlocked.com/"><img class="img-responsive" alt="health unlocked banner" src="../img/portfolio/health-unlocked.jpg"></a>
                         <div class="caption">
                             <h3>Health Unlocked</h3>
                             <hr>
                             <p>The forum scene on the internet, especially Facebook, for diseases is very dire to say the least. There is a bunch of negativity, misinformation and people just looking for a handout. I stumbled upon Health Unlocked and finally found legitimate information on Biliary Atresia. The site covers tons of other disorders as well, so if you're looking for information or support on most diseases, you'll find it here. This site has a great forum where Katie and I discovered many other parents going through the exact same thing as us. Please click the <a href="https://healthunlocked.com/"><strong>logo</strong></a> above to be directed to their site!</p>
-                        </div>
-                  	</div>
-              	</div>
+                        </div><!-- ./caption -->
+                    </div><!-- ./thumbnail -->
+                </div><!-- ./col-lg-6 -->
+            </div><!-- ./row -->
+        </div><!-- ./container-fluid -->
+    </section><!-- ./sites -->
+<!-- END RECOMMENDED RESOURCES SECTION ================================================================================================================== -->
 
-            </div>
-      	</div>
-  	</section>
-
-<!-- FACEBOOK COMMENTS ================================================================================================================================================ -->
-    <section class="bg-dark">
-        <div class="container-fluid text-center">
-            <div class="fb-comments" data-order-by="social" data-mobile="auto-detected" data-colorscheme="dark" data-href="http://www.gigglesnshit.com/pages/blog-8.php" data-width="100%" data-numposts="10"></div>
-
-<!-- GOOGLE ADSENSE COMMENTS SECTION ================================================================================================================================================ -->
-			<?php
-
-			$googleadsense3 =
-			'<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- Google Ad Footer -->
-
-            <ins class="adsbygoogle"
-            style="display:block"
-     		data-ad-client="ca-pub-8526023922334594"
-     		data-ad-slot="2149600061"
-     		data-ad-format="auto"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>';
-            echo $googleadsense3;
-
-					?><br><br>
-
-        </div>
-    </section>
-
-<!-- CONTACT ================================================================================================================================================ -->
-    <section id="contact">
+<!-- START ADSENSE SECTION ============================================================================================================================== -->
+    <section class="bg-primary">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                 	<h2 class="section-heading">Drop me a Line</h2>
-                  	<hr class="primary">
-                  	<p>Feel free to contact me anytime, anyday via my personal email or social media accounts.</p>
-                    <div class="col-lg-12 text-center">
-                        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                        <p><a href="mailto:evanmarshall1986@gmail.com">EMAIL ME!</a></p>
-                    </div>
-                    <div class="col-lg-3 col-xs-6 text-center">
+                <div class="col-lg-12 text-center">
+
+<!-- GOOGLE ADSENSE #3 ================================================================================================================================== -->
+                    <?php
+                    $googleadsense3 =
+                    '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <!-- Google Ad Footer -->
+        
+                    <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-8526023922334594"
+                    data-ad-slot="2149600061"
+                    data-ad-format="auto"></ins>
+                    <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>';
+                    echo $googleadsense3;
+                            ?>
+                </div><!-- ./col-lg-12 -->     
+            </div><!-- ./row -->
+        </div><!-- ./container -->
+    </section><!-- ./bg-dark -->
+<!-- END ADSENSE SECTION ================================================================================================================================ -->
+
+<!-- START CONTACT SECTION ============================================================================================================================== -->
+    <div class="container-fluid bg-dark text-center" style="padding-top:20px;" id="contact">
+        <h2 class="section-heading">Drop me a Line</h2>
+        <hr class="primary">
+        <p>Feel free to contact me anytime, anyday via my personal email or social media accounts.</p>
+        <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+        <p><a href="mailto:evanmarshall1986@gmail.com">EMAIL ME!</a></p>
+    </div>
+<!-- END CONTACT SECTION ================================================================================================================================ -->
+    
+<!-- START SOCIAL ACCOUNTS SECTION ====================================================================================================================== -->
+    <section id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Let's Get Social!</h2>
+                    <h3>Follow, add, or like Giggles N Shit's social media accounts</h3>
+                    <hr class="primary">
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
                         <a href="https://www.facebook.com/gigglesnshitblog/"><i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                        <h3>Facebook</h3>
                     </div>
-                    <div class="col-lg-3 col-xs-6 text-center">
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
                         <a href="https://www.instagram.com/gigglesnshitblog/"><i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                        <h3>Instagram</h3>
                     </div>
-                    <div class="col-lg-3 col-xs-6 text-center">
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
                         <a href="https://www.etsy.com/ca/shop/BabyIslay?ref=shopinfo_shophome_leftnav"><i class="fa fa-shopping-cart fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                        <h3>Etsy</h3>
                     </div>
-                    <div class="col-lg-3 col-xs-6 text-center">
-                        <a href="https://www.pinterest.com/BabyIslay/"><i class="fa fa-pinterest fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <a href="https://twitter.com/gigglesshitblog"><i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
+                        <h3>Twitter</h3>
                     </div>
-        		</div>
-     		</div>
-     	</div>
- 	</section>
-
-<!-- AMAZON A STORE ================================================================================================================================================ -->
-    <section id="admin" class="bg-dark">
-        <div class="container-fluid">
-        	<div id="amazon-link" class="text-center text-capitalize">
-                <h2 style="padding-bottom:15px;"><a href="http://astore.amazon.ca/ginshbl-20">Giggles N Shit Must Haves</a></h2>
-                <div class="embed-responsive embed-responsive-16by9" id="amazon">
-                    <iframe class="embed-responsive-item" src="http://astore.amazon.ca/ginshbl-20" frameborder="0" scrolling="yes"></iframe>
-      			</div>
+                </div>
             </div>
-            <div class="row" style="padding-top:15px;">
-                <div class="text-center col-lg-12 col-xs-12">
-                    <p>&copy; <a href="http://www.gigglesnshit.com">Giggles N Shit Blog</a> - 2016</p>
-        		</div>
-         	</div>
-    	</div>
-  	</section>
+        </div>
+    </section>
+<!-- END SOCIAL ACCOUNTS SECTION ======================================================================================================================== -->
 
-<!-- MINIFIED BOOTSTRAP JQUERY ====================================================================================================================================--><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- MINIFIED BOOTSTRAP JQUERY ========================================================================================================================== --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
-<!--  MINIFIED BOOTSTRAP JAVASCRIPT ============================================================================================================================== --> 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+<!--  MINIFIED BOOTSTRAP JAVASCRIPT ===================================================================================================================== -->   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 
-<!--  PLUGIN JAVASCRIPT ========================================================================================================================================== -->
+<!--  PLUGIN JAVASCRIPT ================================================================================================================================= -->
     <script src="../js/jquery.easing.min.js"></script>
     <script src="../js/build/jquery.fittext.min.js"></script>
     <script src="../js/wow.min.js"></script>
 
-<!--  CUSTOM THEME JAVASCRIPT ==================================================================================================================================== -
--->
+<!--  CUSTOM THEME JAVASCRIPT =========================================================================================================================== -->
     <script src="../js/build/creative.min.js"></script>
 
 </body>
+<!-- END BODY SECTION =================================================================================================================================== -->
 
-</html>
+</html>                                        

@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="NOODP">
-    <meta name="description" content="It's going to get a little crazy on this blog! I am a new father, loving husband, and stay at home 'fommy.' Join me on my journey as I discuss hot-button topics and re-tell the mostly humorous side of being a family-man.">
     <meta name="keywords" content="baby products, baby, baby's, baby wear, baby clothing, parent portal, parents, infant, newly baby, newborn baby, liver, disease, liver disease, biliary atresia, giggles, shit, giggles n shit, blog, parent, father, fommy, stay at home, funny, humour, dad, newborn, baby, nursery, web development, tech">
     <meta name="author" content="Evan Marshall">
     <title>Gunsling N Giggles</title>
