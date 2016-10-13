@@ -11,7 +11,7 @@
     <meta name="robots" content="NOODP">
     <meta name="keywords" content="baby products, baby, baby's, baby wear, baby clothing, parent portal, parents, infant, newly baby, newborn baby, liver, disease, liver disease, biliary atresia, giggles, shit, giggles n shit, blog, parent, father, fommy, stay at home, funny, humour, dad, newborn, baby, nursery, web development, tech">
     <meta name="author" content="Evan Marshall">
-    <title>Gunsling N Giggles</title>
+    <title>The Watermelon Incident</title>
 
 <!-- GOOGLE ANALYTICS =================================================================================================================================== -->
     <?php include_once("../php/analyticstracking.php") ?>
@@ -27,7 +27,7 @@
               });
             </script>'; 
         echo $googleadsense0;
-    ?>        
+    ?>    
 
 <!-- FAVICONS =========================================================================================================================================== -->
     <link rel="apple-touch-icon" sizes="57x57" href="../favicon.ico/apple-icon-57x57.png">
@@ -49,18 +49,18 @@
     <meta name="theme-color" content="#ffffff">
 
 <!-- FACEBOOK GRAPH DATA ================================================================================================================================================ -->
-    <meta property="og:url" content="http://www.gigglesnshit.com/pages/blog-9.php" />
+    <meta property="og:url" content="http://www.gigglesnshit.com/pages/blog-2.php" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Gunsling N Giggles" />
-    <meta property="og:description" content="In the nineth blog post I talk about life with a new addition and all of the surprises involved..." />
-    <meta property="og:image" content="http://www.gigglesnshit.com/img/portfolio/pooface.jpg" />
+    <meta property="og:title" content="The Watermelon Incident" />
+    <meta property="og:description" content="In the second blog post I talk about surviving pregnancy, a peanut butter burger, and a watermelon missle." />
+    <meta property="og:image" content="http://www.gigglesnshit.com/img/portfolio/watermelon.jpg" />
     <meta property="fb:app_id" content="970981369664540"/>
     <meta property="og:site_name" content="Giggles N Shit Blog"/>
-
-<!-- TWITTER SHARE CARD - also uses open graph data ================================================================================================================================================ -->
+    
+<!-- TWITTER SHARE CARD - also uses open graph data ===================================================================================================== -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@gigglesshitblog" />
-    <meta name="twitter:creator" content="@evanmarshall" />
+    <meta name="twitter:creator" content="@evanmarshall" />    
 
 <!-- MINIFIED BOOTSTRAP CSS ============================================================================================================================= -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
@@ -142,7 +142,7 @@
     </nav>
 <!-- END TOP NAV SECTION ================================================================================================================================ -->
 
-<!-- START SOCIAL NAV SECTION =========================================================================================================================== -->
+<!-- START SOCIAL NAV SECTION =========================================================================================================================== -->                       
 	    <nav id="mainNav" role="navigation" class="social navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -161,22 +161,22 @@
             <div class="social text-center collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                 <ul class="social-list nav navbar-nav navbar-right">
                     <li>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/pages/blog-9.php" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.gigglesnshit.com/pages/blog-2.php" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-lg fa-facebook"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/pages/blog-9.php&title=In%20the%20nineth%20blog%20post%20I%20talk%20about%20life%20with%20a%20new%20addition%20and%20all%20of%20the%20surprises%20involved%2E%2E%2E" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a>
+                        <a href="https://www.reddit.com/submit?url=http://www.gigglesnshit.com/pages/blog-2.php&title=In%20the%20second%20blog%20post%20I%20talk%20about%20surviving%20pregnancy%2C%20a%20peanut%20butter%20burger%2C%20and%20a%20watermelon%20missle%2E" title="Share on Reddit" target="_blank" class="btn btn-reddit"><i class="fa fa-lg fa-reddit"></i></a>
                     </li>
                     <li>
-                        <a href="http://twitter.com/home?status=Check%20out%20the%20latest%20post%2C%20%22Gunsling%20N%20Giggles%22%20on%20http://www.gigglesnshit.com/pages/blog-9.php" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a>
+                        <a href="http://twitter.com/home?status=Check%20out%20the%20latest%20post%20%2C%22The%20Watermelon%20Incident%22%20on%20http://www.gigglesnshit.com/pages/blog-2.php" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-lg fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/pages/blog-9.php" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a>
+                        <a href="https://plus.google.com/share?url=http://www.gigglesnshit.com/pages/blog-2.php" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-lg fa-google-plus"></i></a>
                     </li>
                     <li>
-                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com/pages/blog-9.php&media=http://www.gigglesnshit.com/img/portfolio/pooface.jpg&description=In%20the%20nineth%20blog%20post%20I%20talk%20about%20life%20with%20a%20new%20addition%20and%20all%20of%20the%20surprises%20involved%2E%2E%2E" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
+                    	<a href="https://www.pinterest.com/pin/create/button/?url=http://www.gigglesnshit.com/pages/blog-2.php&media=http://www.gigglesnshit.com/img/portfolio/watermelon.jpg&description=In%20the%20second%20blog%20post%20I%20talk%20about%20surviving%20pregnancy%2C%20a%20peanut%20butter%20burger%2C%20and%20a%20watermelon%20missle%2E" title="Share on Pinterest" target="_blank" class="btn btn-pinterest"><i class="fa fa-lg fa-pinterest"></i></a>
                     </li>
                     <li>
-                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com/pages/blog-9.php&media=http://www.gigglesnshit.com/img/portfolio/pooface.jpg&title=Giggles%20N%20Shit%20Blog&summary=In%20the%20nineth%20blog%20post%20I%20talk%20about%20life%20with%20a%20new%20addition%20and%20all%20of%20the%20surprises%20involved%2E%2E%2E" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
+                    	<a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.gigglesnshit.com/pages/blog-2.php&media=http://www.gigglesnshit.com/img/portfolio/watermelon.jpg&title=Giggles%20N%20Shit%20Blog&summary=In%20the%20second%20blog%20post%20I%20talk%20about%20surviving%20pregnancy%2C%20a%20peanut%20butter%20burger%2C%20and%20a%20watermelon%20missle%2E" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin"><i class="fa fa-lg fa-linkedin"></i></a>
                     </li>
                     <li style="color:black;">
                     	<a href="#page-top" class="back-to-top"><i class="fa fa-lg fa-arrow-circle-up"></i></a> back2top
@@ -188,6 +188,7 @@
         <!-- /.container-fluid -->
     </nav>
 <!-- END SOCIAL NAV SECTION ============================================================================================================================= -->    
+
 <!-- START HERO SECTION ================================================================================================================================= -->
     <header>
         <div class="header-content">
@@ -232,34 +233,101 @@
             <div class="row">
                 <div class="col-md-8 text-center">
 
-                	<h2 itemprop="name">"Gunsling N Giggles..."</h2>
-                    <h3 class="section-heading">June 22<sup>nd</sup>, 2016</h3>
+                	<h2 itemprop="name">"The Watermelon Incident..."</h2>
+                    <h3 class="section-heading">March 28th 2016</h3>
 
-                    <hr class="light" style="width:50%;">
-                    
+                    <hr class="light">
+
+                    <img itemprop="image" class="img-responsive" src="../img/portfolio/watermelon.jpg" alt="blog post banner">
+
+                    <hr class="light">
+
+                    <p itemprop="description" class="text-faded">Nine months of: "You'll want to pull your hair out!" Nine months of: "Crazy mood swings and cravings." When people find out you are going to become a parent, a grey cloud emerges in the sky, thunder crashes around you, a red haze fills the air and pure evil seems to indoctrinate anyone you speak to. "Once that miniature devil is born, say goodbye to your life as you know it and hello to the worse years of your life!" "That thing will ruin your wife's body and you will never sleep, have sex, or a peaceful moment again!" Really people? Is it really that bad or are you just boring and narcissistic about accomplishing such an amazing feat that you just HAVE to tell the world about how you survived it? Why the hell do people even start a family if it's so overwhelmingly difficult?</p>
+
+                    <p class="text-faded">For all of you soon-to-be parents/spouses of a pregnant woman out there, I'm here to say: "it's really not that bad." Now I know some mothers have complicated pregnancies and some mothers lack support from a partner, so I understand there can be some truth in the negativity of pregnancy and birth. Fortunately Katie's first pregnancy was relatively straight forward (that doesn't mean there weren't funny situations throughout). In my opinion, even in some really shitty situations, I think it is all about your perspective. There is always a silver lining of positivity and humour even in the worst situations. I have observed the people who have told me the "horror stories" of pregnancy and raising a child, and to be honest I'm not surprised. Pacifying their children with a smartphone, sheltering their children from what's important in life (i.e. not allowing them to fail in school when they clearly are or the famous: everyone is a winner crap), not believing in discipline or saying "no" to their child, and buying into the next hippy-dippy parenting thing they read on Facebook (do you know people actually save their placentas and convert them into pill form for nutrition? Isn't that cannibalism??). Come on people, are you really surprised you're having a difficult time with parenting? "No Mr. Teacher (who has forty more years of maturing on this planet than my five year old) my son would never kick up sand into the face of some douchebag kid who stole his popcorn at recess." “Well guess what Mr. Parent, kids are little assholes and so were you when you were that age so get your head out of the clouds and let the poor teacher do his job.”  Isn't it our responsibility to provide care and love to our women carrying one of the most precious things in human creation for nine months (within reason... they aren't completely useless and you know they will milk it once in a while)? Isn't it our responsibility to let these innocent, underdeveloped creatures learn the ways of this cruel world with our guidance? One of my favourite sayings is: "un-coachable children grow up to be un-employable adults." Don't ask me who said that. I'm the type of person who forgets your name as soon as my hand leaves the handshake. The saying is so true though. I have seen it by watching parents and managing staff for years. Don't do that to your children people. It's more important to let your child screw something up and be there to show them how to fix it than to try and prevent them from ever making the mistake in the first place. That's just one rookie ginger father's opinion... Maybe I'll be wrong and I'm sure you'll hear about it on here.</p>
+
+                    <p class="text-faded">Back to Katie and her fabulous belly. Katie and I probably piss people off once in a while about our health and nutrition craziness. We believe that the food we eat and how we cook it needs to be as close to the source as possible (except for Cadbury Mini Eggs... Mini Eggs are exempt). Maybe it's just a coincidence but people who know me know that I used to be a pretty intense athlete and in great shape. Then I went to university, quit competitive paddling and everything went to shit. The thing is, besides being a little squishier in the abdomen and breathing heavier going up a flight of stairs, I have managed to maintain the same weight for the last 10 years. I attribute that strongly to our diet. Anyways, I'm not going to bore you with a health and nutrition rant, I just wanted to mention that because it is what we believe made Katie's pregnancy pretty straight forward. You don’t have to drastically change your lifestyle when you’re pregnant unless your lifestyle includes sniffing bath salts, smoking crack or binge drinking with sororities on the weekends. It took forever for her belly to show, the mood swings were relatively non-existent (until the final month or so), there were no weird cravings (i.e. anchovies and Sour Patch Kids), she was still pretty active and generally pleasant to be around (mind blown?). We always got a kick out of how people become very inconsiderate when they make comments to a pregnant woman. For example: "Holy shit, you are getting huge." "Oh man, are you carrying twins?" Thank god Katie had some self esteem or I would have come home to her crying in the corner surrounded by a bunch of Lipozene cartons and chocolate bar wrappers. It is what I like to call "nonversation." Sorry, unfortunately I can't copyright that because I did not come up with it. Working in retail you develop a strong aversion to "nonversation." It is when people are so socially stunted that when they meet with you they can't carry a normal conversation and end up mustering: "so how about that weather out there, only in Nova Scotia eh?!" "Working hard or hardly working, muhahahah?" "Did you see that Montreal game last night? Leafs fans are laughing now I'm sure." I always stay professional in these dire situations even though I want to grab the nearest stapler, dip it in some vinegar, and... I'll let you figure out the rest of that sentence. Then you have those assholes who find out, I'm staying at home while Katie is going to bring home the bacon, saying things like: "That's the least he can do since you carried a baby for nine gruelling months (like I was some useless piece of shit, drooling while I  stared out into space for nine months)." Or the ones that look at you like you have pickles for ears while awkwardly saying: "Well, good for you (like I'm attempting to find the cure for cancer or something)." Well, telling a pregnant woman she is large is up there with some of the worst nonversation.</p>
+
+                    <p class="text-faded">Now that I think about it, some of the worst parts of being pregnant are the other people. Hey, maybe her pregnancy went so well because her husband is so amazing and cautious (because he knew that one false move she would do as the Black Widow spider does). Well there were two such moments where I, in retrospect, may have slipped.</p>
+
+                    <h3 class="header-text">Moment #1: The Peanut Butter Burger Massacre</h3>
+
+                    <p class="text-faded">This slip up was very early on (and I mean early). It was actually soon after the story of my last post. My wife wanted to keep the news of her being pregnant under lock and key until the end of first trimester (oh, in case you haven't realized, I hate the term "we" are pregnant it just makes me feel weird like I have to start wearing maternity clothes or something). I can understand why she felt this way, with the prevalence of miscarriages and not wanting to have to share such a loss with the world. I just think she kept forgetting that I had super sperm and “there ain't no way that was gonna happen…" Anyways, here we are (my best mate Josh and I), me just finding out I was going to have my first baby, super excited and my best friend had no idea. You know I had to tell him. Did I say this was only a few days after we found out from that bucket full of pregnancy tests? Josh and I were on our way to a quaint little restaurant in Halifax by the name of Darrell's. They are famous for their unsettlingly delicious "peanut butter burger." It is exactly as it sounds. The same as any other burger, dressed the way you want, with a glob of creamy smooth peanut butter on the bun. I was skeptical at first too, but Mmmmmm mmmmm. Josh and I are just arriving at the restaurant and decide to wait in the big ass lineup. Katie calls me and asks how things are going and for some stupid reason I decide to tell her that Josh wants to celebrate our news. She be all like: “News?! What news!? I am not even sure she took a breath throughout the next 10 minutes as she vocally abused me. It was so loud that the pair of dudes in front of us in line turned around and gave me the classic: duuuude, we are so sorry to hear you have been castrated, hopefully she is good in the sack, look. Once the peanut butter burger massacre was finished we joyously forgot the events of the past and mowed down our burgers in delight. Oh, you thought that was the end of it, hahahaha NO. Josh is like the Antwerp Diamond Centre Vault when it comes to keeping secrets. So much so that when I told him he absolutely could not tell anyone my news (for the sake of my well-being), he did not even tell his fiancee until she found out he didn’t. The secret-keeping-code he lives by is so ingrained that until this day I am sure he still doesn't understand why his now current wife was so upset (it was dicey whether or not they were even going to get married due to this… just kidding but seriously if you ever have a secret you need to get off your chest just talk to Josh). We all survived the peanut butter burger massacre and lived to tell the tale.</p>
+
+                    <h3 class="header-text">Moment #2: The Watermelon Incident</h3>
+
+                   	<p class="text-faded">So, we have finally arrived at the watermelon incident! Besides the very early slip-up, I did pretty good up until the last month of Katie’s pregnancy. During this time was when Katie started showing some of the more traditional pregnancy symptoms. Super tiredness, super hungriness (or as I likes to call it: prangry &copy), super absentmindedness (or as Josh likes to call it: placenta brain &copy), and super moodiness. I think the problem here was that I was getting used to how smooth the pregnancy was going that I slipped and fell into a pile of an argument with my plump-ripe wifey. It was such an un-important, stupid argument that neither one of us even remember what it was about (probably about whether or not Icelanders consume more Coca-Cola per Capita than any other nation). The premise of the argument is not important though, the events that unfolded next would change how I viewed pregnancy for the rest of my days. I tend to poke the bear when I get frustrated in an argument and say anything that will just set her off (I know: “Evan you are so much smarter than that”). This trait was even more of an issue when my beautiful wife couldn’t even bend over to put on her shoes. Needless to say, I poked mother bear while she was munching out on a watermelon, cut in half, in a tiny bowl. I was standing on the other side of the room and I saw the flames in her eyes, steam exiting her ears and it was in slow motion. The watermelon, bowl and all, floated ever so slightly into the air like a bullet followed by the small explosion of the gun powder. It zipped past my head with a whistling sound and exploded all over her Macbook and wall behind me. I was in so much shock that I went mute, put on my shoes and left to get cat litter so that our cats would love us again. There it is folks. That is the gist of Katie’ pregnancy. We both survived and are stronger because of it.</p>
+
+                	<h4>Peace out!</h4>
+
+					<div class="thumbnail">
+  						<img src="../img/portfolio/little-fam.jpg" alt="happy family">
+  						<div class="caption">
+                            <h3>Family Photo Shoot</h3>
+                            <p>See, I told you we made it through pregnancy unscathed...</p>
+  						</div>
+					</div>
+
+                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a style="color:white;" href="https://twitter.com/gigglesshitblog">Twitter</a>, <a style="color:white;" href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a style="color:white;" href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+
+                </div>
+
+<!-- ADDITIONAL BLOG POSTS ============================================================================================================================== -->
+                <div class="col-md-4 text-center">
+                    <h2>You May Also Like...</h2>
+                    <h3>Click the images below</h3>
+
+<!-- ADDITIONAL BLOG POST 1 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img  itemprop="image" class="img-responsive" alt="main blog post image" src="../img/portfolio/pooface.jpg" data-toggle="modal" data-target="#myModal-0">
+                        <img class="img-responsive" alt="post 1 image" src="../img/portfolio/announcement.jpg" data-toggle="modal" data-target="#myModal-1">
                         <div class="caption">
-                            <h3>"Click the image for video"</h3>
+                            <h3>"Shit, I'm Pregnant..."</h3>
+                            <h4>March 20<sup>th</sup> 2016</h4>
                             <hr>
-                            <p>Isla's poopface. Sorry sweetie you're going to hate me when you're older...</p>
+                            <p>It’s early April of 2015. My wife Katie and I are on one of our leisurely drives around town looking at random houses while dreaming, critiquing, and scoffing at the sites...</p>
                         </div>
-                  	</div>
+                    </div>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="myModal-0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
+                    <div class="modal fade" id="myModal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h3 class="modal-title" id="myModalLabel">"Shit, I'm Pregnant..."</h3>
+                                    <h4>March 20<sup>th</sup> 2016</h4>
+
                                 </div>
                                 <div class="modal-body">
-                                	<video width="100%" height="315" controls poster="../img/portfolio/pooface.jpg" preload="none" draggable="true">
-                                    	<source src="../img/portfolio/pooface.mp4" type="video/mp4">
-                                        <source src="../img/portfolio/pooface.ogv" type="video/ogv">
-                                        Your browser does not support the video 
-                                  	</video>
+
+                                    <h5>Click <a href="blog-1.php">here</a> for full article or read "text-only" version below</h5>
+                                    <hr>
+
+                                    <p>It’s early April of 2015. My wife Katie and I are on one of our leisurely drives around town looking at random houses while dreaming, critiquing, and scoffing at the sites. I am not sure if this is a normal thing couples do, but when we  have nothing better to do some evenings, we like to hop in our late 2012 Nissan Rogue and drive through neighbourhoods. Sometimes when we see a beautiful house we even slow down, take pictures as the SUV crawls by, and then speed away before people call the cops on us. So far we have not had any jail time so I’d say we are professionals.</p>
+
+                                    <p>On this particular night in April, we were on our way home and we were having a somewhat civil argument. Before I get into details of the argument I will give you a quick run down of our history. I do not want you to think our relationship is doomed because of a silly fight which turned out to be one of the best nights of our relationship (oh the suspense, I know!).</p>
+
+                                    <p>I met Katie in high school in a town/ suburb/ city/ (who knows what the fuck to classify the shit hole where I grew up). Google: “Sack-Vegas” and the first hit will give you a good idea of my roots. Yes that is a “Welcome to the Wonderful Sack-Vegas” sign and yes it was actually a real sign placed by the highway leaving town, which made local the news before it was taken down.
+                                    Go to YouTube and search: “Lower Sackville Promo” and you will find a wonderful video with a very accurate description of my hometown (the narrative is to die for).
+                                    You know what… screw searching for these things… it is 2016 and I am not a moron (some might disagree) so check out the link and embedded video below. I can just see my aunt Juanita saying: “Evan, you said to Google Sack-Vegas and now all of my Facebook friends see my new profile picture of what looks to be a nice, well-formed pair of breasts in the latest Victoria’s Secret bra until they click on it and reveal a hairy, obese man’s ass-crack in a pair of polka dot bros (Seinfeld reference).” Or my mother Ethel saying: “Evan, you said to look-up Lower Sackville Promo on YouTube and now a man named Rasheed from Windows said my computer was infected with viruses and I no longer have a left kidney.” I’ll save you the trouble… </p>
+
+                                    <p>Sorry about that tangent, now back to the main story: we met at Sackville High. I was fresh out of a relationship and my friend, who never knew how to stay away from the “friend-zone,” devised a new (failure) of a scheme to pickup a lady-friend whom he had eyes for. This lady-friend turned out to be friends with my now current and only wife. All he had to do was tell me I was on the list of who she found cute in high school and I was like “BAM! Cat in the bag!” Triple date time with two of my good lads. It was Halloween night and we went out to see one of the worst movies to franchises in existence: “Saw.” You know, the first one, the one where the guy uses a jig-saw to cut off his hand to escape the game. My 4 year old nephew can act better than that for a Klondike bar. The movie went well, my two buddies bitched out and went home afterwards, and Katie had a fabulous idea to keep the night young. “Let’s go trick or treating.” (to many of my friend’s and families’ dismay my trick or treating went on until I was into my early 20s).</p>
+
+                                    <p>So here I am stuck with Katie and two other girls, by myself, trick or treating (i know, rough life, eh?). Problem was I did not have anything to wear, come to think of it, none of us did. We started at Katie’s house and she rummaged through her things and whipped together four costumes. I only remember her costume and mine because obviously they were the two best ones. Katie’s costume was a simple pair of white long john’s and rubber boots and mine ended up being a dress with a tight, pointy elf hat (go figure…). In retrospect the next thing that happened turned out to be a short and meaningful moment in which I will never forget. On our way out to bag ourselves a good bounty of candy I had my first interaction with Katie’s father. Her mother loved me right away, but that is just the type of lovely and personable person she is. Katie’s dad on the other hand is a more reserved individual who believes in the more old school ways of father son-in-law relationships. Truth is he loves his two daughters more than anything in the world and if anyone hurt them they would probably be shot (he has even shown me the collection of guns and bullets he owns and loves to take me to the shooting range, just he and myself and no witnesses). But hey, now that I am a father of a beautiful innocent baby girl, I can completely understand. Now that I have made it into the inner circle I know most of it is a front and deep down he is a big softy. Any who… I think that was anther small tangent… maybe I have a problem. So this moment I will never forget was when I came out of Katie’s room with two of her girlfriends, wearing a green (I think floral patterned) dress with a tight red and yellow elf cap. As I was walking out of the house I walked past the master bedroom where Katie’s father was laying down watching a show. At the time I did not think anything of it because I had no idea who this man was, but in retrospect I am lucky I have been around this long. It is nerve-racking to meet the girlfriend’s father in the first place, but try doing it while dressed up like an idiot, with sweaty palms and a goofy smile on your face. Luckily there was only a quick, “Who the fuck is this dumbass?!” moment, where he was caught off guard just as much as I was and all we could both muster was a quick: “Hey!” with a nod. Come to think of it, I got off easy with her father on several occasions over the last decade due to catching him off guard. Asking him if I could marry his daughter was another one of these occasions, but I will spare you another tangent and mention that in a future blog post. I know, pretty insignificant and small moment there, big guy… but if you guys know Katie’s father or if I described him well enough, I am sure you get how huge that split second was. I doubt in that moment he thought he was seeing the man of his daughter’s dreams.</p>
+
+                                    <p>The rest of the evening went very well. Katie was the first down to earth, funny, sexy girl I had ever met. I was beginning to think that a girl such as this, in Lower Sackville (Nova Scotia, Canada), was a unicorn (see one of my favourite videos describing a unicorn below). </p>
+
+                                    <p>To be honest, I only went on the date as a favour to my “friend-zone” buddy as I was not looking for anything serious at the time. I think the moment I knew this girl was worth a second glance was while we were walking up to our first house for candy. As we were walking, I did not realize (sorry Katie and your family), but I was staring at her perfectly formed, upside-down heart shaped booty being cradled by the tight long-johns like a mother holding a baby in each arm. I realized I was in a trance when Katie looked back at me and boldly said: “Well if you’re going to stare at it you might as well grab it,” to which I giddyingly &copy; obliged. At that moment was the first time I had realized I met my match.</p>
+
+                                    <p>Skip ahead 11 years, past many many more stories, trials and tribulations; back to April 2015. Don’t worry, I am sure the many details of those 11 years will come out in future tangents. Here we are again, arguing about when and if we will ever be ready to start a family (and this is not the first time we had this argument, but it is a memorable one for sure). Truth is, there is never a perfect time. I have known my whole life that I wanted to start a family someday. I would even have 15 kids if it were financially and mentally feasible (when you are not living on a farm). Katie definitely wanted a child or two, but was a little more apprehensive about it than I. You already know my wife has a very endearing potty mouth, but one other thing you do not know is that she has OCD (or C-D-O as she lamely likes to call it because that is alphabetical order). She likes to have every detail planned out and organized. The problem with this and having a child is that they clash. If you are truly serious about diving into the wonderful world of being a parent then you need an ounce of impulsiveness and faith that everything will be alright. When you are up at 4 am, after 4 weeks straight of your baby screeching, whilst knowing you need to be up in an hour to drive to your place of work (so that you can muster out a good zombified 8 hours of bullshit), you definitely need to have faith that everything will be alright. This lackadaisical demeanour is a lot easier for a fly-by-the-seat-of-your-pants type of guy guy like myself, but not so much for a OCD planner. Needless to say, we had some clashing of opinions about when this family thing was gong to start and this night in April 2015 was no exception. We didn’t get anywhere in our argument that night. We ended up storming into the house together and going into separate rooms. I was beginning to wonder if I would be needing Viagra by the time she would be ready, but also knowing I would make that a reality if I kept pushing. I am out in the living room watching a show when I hear Katie having a maniacal laughing fit in the bathroom and calling out my name. After I check that all of the knives are in the knife block and my gun is locked away, I cautiously walk towards the bathroom. She whips up a pregnancy test (in which I dive out of the way of, in fear of urine landing on my face) and there are two blue lines. Oh and you know she ain’t leaving it at one test with all of the false positives running around out there. She opens a drawer and out fall ten more tests all with the same two blue lines (ok, ten is a slight exaggeration for effect, it was probably only one more, but I wouldn’t be surprised if she had a drawer somewhere).</p>
+
+                                    <p>All is forgotten of the aforementioned argument that night, we hold each other with tears in our eyes and laughing due to the irony of what just happened. I may have mustered out: “guess we have no choice now,” as I look nervously over her shoulder at the pair of scissors behind her back….</p>
+
+                                    <p>Just kidding (about the scissors)!</p>
+
+                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
+                                    
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -268,44 +336,9 @@
                         </div>
                     </div>
 
-                    <hr class="light" style="width:50%;">
+                    <hr class="light">
 
-                    <h2>Life with a Baby</h2>
-
-                    <p itemprop="description" class="text-faded">It’s always interesting how much entertainment a child adds to your life. Life, pre-family, has the tendency to become monotonous at times. Wake up, get ready for work, scoff down some breaky, work eight hours, come home, cook supper, clean up, little R & R, wash up, bedtime, repeat. If you do not make an effort to be creative in what you do during the work days it can be very easy to end up in a rut. With a baby on board sporadic entertainment when you least expect it is a common occurrence. With a baby we have to make an effort to have mommy and daddy time. I have a somewhat sarcastic and childish sense of humour, if you have not come to this conclusion while reading past blog posts. Therefore, the following example of a funny situation involving more doody should not be a surprise (hence the name of the blog). Sometimes when a routine diaper change turns into a massacre, you just have to laugh about it afterwards, when the pain stops...</p>
-
-                    <h2>Triplo Doody</h2>
-
-                    <p class="text-faded">It was a regular spring evening and Isla was about 5 months old. I had just finished putting her to bed around 7pm and all was well in the world. She usually gets up crying for food around 10pm or 11pm. My routine during night time feeds is to give her a kiss on the forehead, lift her out of her crib ever so slightly, lay her on the changing table, whip off the Huggies Snug and Dry diaper, clean up the mess with some Shoppers brand wipes, slap on a fresh diaper, hold her in our wicker rocking chair, and feed her some formula from our favourite Born Free Breeze glass bottles (text version of product placement?). On this particular night when I opened her nursery door a tumbleweed blew past the doorway, a somber wind blew out the door and into the hallway, and you could hear a Western whistle wah wahhing in the background. I didn’t know it at the time, but I was in for a gunsling’n shoot-out. When I laid her on that changing table she had a mischievous grin on her cute little button face. I am always powerless to this look and it draws me in with a sudden giddiness as I blow raspberries on her bare belly. In retrospect, I would say there was steam rising from the leg holes of her Huggies. As soon as the velcro lifted a familiar smell took my breath away. Let’s just say that it is not a pleasant smell like a freshly dried pair of trousers pulled from a drying machine. It was the biggest mess she had left me to date. Up the back, all over her onesie, in her hair, on her feet, and even on the ceiling! She began to chuckle as if to say: “good luck cleaning this one up, my bitch!” A few hours later, two empty bags of wipes, a fresh coat of paint on the ceiling, and the job was done. I made sure that cute little buttocks squeaked to the touch. Problem is, no more fresh diapers were accessible… Now there is a crucial timeframe between butt cleaning and applying a fresh pair of diapers (I call this “purgatory.” You’re not sure if you’re entering heaven or hell and you’re being judged the whole time). There was a brand new unopened box of 240 Huggies Snug and Dry in the opposite side of the room (received from Amazon family; it’s a sweet deal!). The problem is that the time it was going to take in order to run to that side of the room, pop the top of the diaper box open, rip through the pre-sealed bags of 60 diapers as though a baby calf was drowning in them; was going to push me well over purgatory to the point of no return. Fuck it! I was committed, so I made the trek to the diaper box knowing full well that Isla had her 6 shooter cocked and ready to fire at any moment. I managed to get one diaper free from these unbelievably well sealed bags. The problem was, you guessed it, Isla managed to fire off a round. It made a ricochet sound as it blew past my head while I was in a slow motion back flip of avoidance and I barely escaped the following onslaught with my life. Just as I was ravenously ripping the sealed bag of diapers open, there was just enough elasticity that my elbow whipped back and smashed the top corner of her solid oak dresser. At this very moment I was rolling around on the floor teaching Isla a whole new vocabulary of pleasant words while massaging my “not so funny” funny bone. I swore the bone was now shattered into a hundred pieces. Isla had just started wailing (not sure if it was my screams of agony or that she was just embarrassed about her second mess). So I am yelling in pain while rolling on the floor, Isla is crying and laying in a new pile of shit, and I managed to muster a few encouraging words to her:</p>
-
-                        <blockquote>“Don’t worry about the mess sweetie, it happens to the best of us, EVERYBODY POOPS! (while tears ran down my face)”</blockquote>
-
-					<p class="text-faded">Now I have a throbbing elbow on one side and a mangled bag of 60 diapers on the other side which has exploded all over the floor. I am feeling confident now that I have 60 diapers on stand-by so I lean in close to Isla and whisper in her ear:</p>
-
-                        <blockquote>“Did he fire six shots or only five?" Well to tell you the truth in all this excitement I kinda lost track myself. But being this is a .44 Magnum, the most powerful handgun in the world and would blow your head clean off, you've gotta ask yourself one question: "Do I feel lucky?" Well, do ya, punk?”</blockquote>
-
-                    <p class="text-faded">Well, as you probably guessed by the title, Isla had another round left in the chamber. I had just gathered my composure after this traumatic experience, finished cleaning up her second pile of smoking shells on the floor, slapped some zinc cream on her freshly cleaned bum, and then it happened… again! It started with the furrowed brow and look on her face like she was trying to solve a related rate calculus equation. There was no more joking at this point and she began to wince while clenching down on her diaphragm. Once you hear that grunting sound (similar to the sound daddy makes when he helps lift uncle Eugene’s full sized slate pool table) and the anus starts puckering, you have again passed through purgatory to enter hell. My first irrational thought during this split second was:</p>
-
-                        <blockquote>“Should I plug it with my finger? No Evan don’t be an idiot, she’ll explode with all of that back pressure. Just let nature take it’s course and throw your pride out the damn window.”</blockquote>
-
-                    <p class="text-faded">It was now the third time I had performed a diaper change on my little gunslinger whom I now realized could put some of my proudest toilet productions to shame. The showdown was complete and to say that I lost was an understatement. I was beginning to wonder if Katie had given birth to an alien-like shitting machine who can power a city block with the velocity of her bowel moments. Was her super cute baby exterior just an elaborate disguise? Obviously I was starting to lose my mind a bit. I had just faced an experience I would never forget from a 2 foot tall 15 pound human and the sun was starting to rise in the morning sky. I’ll finally put her to bed and pretend this was all just a dream...</p>
-
-                    <h2>Final Thoughts:</h2>
-
-                    <p class="text-faded">Is it uncool when you are trying to sleep and all you hear over the baby monitor is a full blown fart fest? I mean like 99 balloons were fully blown and let go before a knot was tied. Is it even more uncool that your wife always tries to blame the sounds on your innocent little 5 month old? Just kidding, ninety nine percent of the time that baby lets out full blown, norseman with lactose intolerance, farts. I do not care how old or mature you think you are; a fart sound aways gets yah.</p>
-
-                    <p class="text-faded">Food for thought...</p>
-
-                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a style="color:white;" href="https://twitter.com/gigglesshitblog">Twitter</a>, <a style="color:white;" href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a style="color:white;" href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>
-
-                </div>
-
-<!-- ADDITIONAL BLOG POSTS ============================================================================================================================== -->
-                <div class="col-md-4 text-center">
-                	<h2>You May Also Like...</h2>
-                    <h3>Click the images below</h3>
-
-<!-- ADDITIONAL BLOG POST 1 ============================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 2 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 3 image" src="../img/portfolio/peanut.jpg" data-toggle="modal" data-target="#myModal-3">
@@ -315,7 +348,7 @@
                             <hr>
                             <p>Let's recap: We had an awkward butt wiping, we had a Halloween-long-John reception, we had watermelons flying and a peanut butter burgers feast. Now...</p>
                         </div>
-                  	</div>
+                    </div>
 
                     <!-- Modal -->
                     <div class="modal fade" id="myModal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
@@ -328,7 +361,7 @@
                                 </div>
                                 <div class="modal-body">
 
-                                	<h5>Click <a href="blog-3.php">here</a> for full article or read "text-only" version below</h5>
+                                    <h5>Click <a href="blog-3.php">here</a> for full article or read "text-only" version below</h5>
                                     <hr>
 
                                     <p>Let's recap: We had an awkward butt wiping, we had a Halloween-long-John reception, we had watermelons flying and a peanut butter burgers feast. Now we are finally here. We are at the day that you know is coming, you try to prepare for, but always end up in a bag full-o-emotions. Labour Day, and not the fun one.</p>
@@ -377,7 +410,7 @@
 
                     <hr class="light">
 
-<!-- ADDITIONAL BLOG POST 2 ============================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 3 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 4 image" src="../img/portfolio/the-bomb-1.jpg" data-toggle="modal" data-target="#myModal-4">
@@ -387,7 +420,7 @@
                             <hr>
                             <p>So here we are. It is Monday April 11th (5 days before Katie's 28th birthday. Had to say that in this post as she never remembers her age and it is scary). It will be Isla's third...</p>
                         </div>
-                  	</div>
+                    </div>
 
                     <!-- Modal -->
                     <div class="modal fade" id="myModal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
@@ -400,7 +433,7 @@
                                 </div>
                                 <div class="modal-body">
 
-                                	<h5>Click <a href="blog-4.php">here</a> for full article or read "text-only" version below</h5>
+                                    <h5>Click <a href="blog-4.php">here</a> for full article or read "text-only" version below</h5>
                                     <hr>
 
                                     <p>So here we are. It is Monday April 11th (5 days before Katie's 28th birthday. Had to say that in this post as she never remembers her age and it is scary). It will be Isla's third trip to see her paediatrician. This Thursday will be her zillionth time seeing her GI specialist and blood clinic (I know, zillion is an exaggeration, but it's been a lot). The thing is, am I going to tell you why? Of course not! You will have to read on punk! Oooohhh, bomb drop, no he didn't? Yes he did! Title drop... I digress.</p>
@@ -409,11 +442,11 @@
 
                                     <p>It's amazing how long you can just stare at this wondrous creation of yours. I'm serious, MGM or Fox needs to jump on this opportunity and make a movie/time-lapse video of some random baby being a baby. That shit would be a hit!! We were in the hospital for two days. These two days felt a lot longer due to our sleeping arrangements. When you're sleeping on a rickety old cot made for a little person and a blanket that's basically the size of a bath towel; it ain’t fun. It was all worth it in the end, though, or at least we kept telling ourselves that... Flash forward to an extremely sleepless night during the first week we brought Isla home. She was fussy as all hell and we were at our wits end with ways to settle her. Both of us were sitting down, hair standing at its ends, panting, and Katie looks up at me to say: "I can't do this anymore." (by the way, Katie is someone who needs all of her sleep in order to function properly so you can imagine the shape she was in). I stood up and abruptly said: "Alright, pack up her things, let's give her back!" That's basically my role in our relationship and it has been working quite well for the last 12 years. When Katie is being a drama queen, I say something stupid to lighten the mood.</p>
 
-                                    <p>Flash back again to a few days prior to the day we were ready to enforce the return policy on Isla. We were at the hospital for our final day, full of anticipation to get the "all clear" for her routine tests and head home. Everything is how it should be. She is responsive, her belly pokes reveal normality, and she even had that disgusting amniotic poop (the one that looks like molasses (knew there was a reason I didn't trust molasses). The only concern they had was her bilirubin levels were on the high side of normal (hence the extra day at the hospital). For those of you who don’t know, bilirubin is the active part of your bile, which is secreted from your liver and into your small intestine. It’s main function is the break down of red blood cells and digestion of fat in your diet (by no means is that the medical definition, but it is my understanding. There will be more layman's definitions to come as we have had many’a learnings over the last few months). That's fairly normal though and even if her levels didn't drop they would just give her her first trip to the tanning bed and say goodbye to her newborn jaundice. Long story short, the bilirubin levels did drop and we were released that day. We bundled her up in her car seat like an easily bruised kiwi, carried her out to the SUV like she would shatter if dropped, and headed home to our new normal!</p>
+                                    <p>Flash back again to a few days prior to the day we were ready to enforce the return policy on Isla. We were at the hospital for our final day, full of anticipation to get the "all clear" for her routine tests and head home. Everything is how it should be. She is responsive, her belly pokes reveal normality, and she even had that disgusting amniotic poop (the one that looks like molasses (knew there was a reason I didn't trust molasses). The only concern they had was her bilirubin levels were on the high side of normal (hence the extra day at the hospital). For those of you who don’t know, bilirubin is the active part of your bile, which is secreted from your liver and into your small intestine. It’s main function is the break down of red blood cells and digestion of fat in your diet (by no means is that the medical definition, but it is my understanding. There will be more laymen's definitions to come as we have had many’a learnings over the last few months). That's fairly normal though and even if her levels didn't drop they would just give her her first trip to the tanning bed and say goodbye to her newborn jaundice. Long story short, the bilirubin levels did drop and we were released that day. We bundled her up in her car seat like an easily bruised kiwi, carried her out to the SUV like she would shatter if dropped, and headed home to our new normal!</p>
 
                                     <p>We learned that at a few days old Isla was definitely a princess. When putting her down for a nap she needed the following: tightly wrapped swaddle blanket (see my "must haves” section below, they are freakin' awesome and fairly priced), a perfect temperature of 26 to 28 degrees Celsius, near pitch black room, and constant white noise (also in my “must haves” section). If any of those variables are missing you can pretty much kiss your sleep goodbye. Katie's genes definitely kicked the shit out of my rare Ginger Genes. Luckily Isla got her mothers deep brown eyes, darker complexion, brown hair (what little of it she has), and a mini-me face of her mother. Come to think of it, if it wasn't for how long that baby was, I would have bene looking for a paternity test. Either Katie hooked up with the Purolator man or Isla just asexually budded off of her mother.</p>
 
-                                    <p>Katie had researched just about everything baby related prior to Isla's arrival. She even looked up a very descriptive  and picturesque step by step guide to how poop colour/texture should look at all stages of a babies' life (I thought it was gross, but I have learned now how important this is, so make sure you know your babies' poop!). We were a little over a month in and starting to get into a good routine with our baby girl. The first two weeks were a shit show, but it's surprising how innately parenting is just picked up. So all of you soon-to-be parents out there, take it from me, things will work out just fine. We were starting to have some concerns however. Isla's jaundice wasn't decreasing in her skin and the sclera of her eyes (that’s the white part of your eyes). Her poop wasn't the bright yellow colour we were expecting, but was in fact quite pale-grey. She wasn't gaining weight as quickly as the baby growth chart was expecting (parents, make sure you are keeping an eye on all of these milestones of a newborn. Parents will always know best, but you need to do a little research with the guidance of your doctor). The lack of growth was a tough one as Katie and I believed strongly in the benefits of exclusive breastfeeding, but unfortunately had to make the compromise of supplementing with formula. We still didn't go exclusively to formula, which I thought was a good compromise. It seemed that Isla agreed as well, since it helped her growth get back on track and even helped her sleep longer at night. Because breastfeeding jaundice is quite common and she was back to normal growth, our family doctor wasn't too concerned with Isla's progression. Thank god Katie was so obsessed with Isla's poop as you will soon understand! As soon as that waft of pleasant odor reached Katie's nose (from up to a mile away), you would hear her feet drop to the floor and she would run towards me to tackle the diaper out of my hand for inspection. If it wasn't for the poop inspection, our family doctor never would have referred us to a local paediatrician (who goes above and beyond any health professional I've ever met. Amazing dude), and we never would have made it to our newest normal with Isla.</p>
+                                    <p>Katie had researched just about everything baby related prior to Isla's arrival. She even looked up a very descriptive  and picturesque step by step guide to how poop colour/texture should look at all stages of a babies' life (I thought it was gross, but I have learned now how important this is, so make sure you know your babies' poop!). We were a little over a month in and starting to get into a good routine with our baby girl. The first two weeks were a shit show, but it's surprising how innately parenting is just picked up. So all of you soon-to-be parents out there, take it from me, things will work out just fine. We were starting to have some concerns however. Isla's jaundice wasn't decreasing in her skin and the sclera of her eyes (that’s the white part of your eyes). Her poop wasn't the bright yellow colour we were expecting, but was in fact quite pale-grey. She wasn't gaining weight as quickly as the baby growth chart was expecting (parents, make sure you are keeping an eye on all of these milestones of a newborn. Parents will always know best, but you need to do a little research with the guidance of your doctor). The lack of growth was a tough one as Katie and I believed strongly in the benefits of exclusive breastfeeding, but unfortunately had to make the compromise of supplementing with formula. We still didn't go exclusively to formula, which I thought was a good compromise. It seemed that Isla agreed as well, since it helped her growth get back on track and even helped her sleep longer at night. Because breastfeeding jaundice is quite common and she was back to normal growth, our family doctor wasn't too concerned with Isla's progression. Thank god Katie was so obsessed with Isla's poop as you will soon understand! As soon as that waft of pleasant odour reached Katie's nose (from up to a mile away), you would hear her feet drop to the floor and she would run towards me to tackle the diaper out of my hand for inspection. If it wasn't for the poop inspection, our family doctor never would have referred us to a local paediatrician (who goes above and beyond any health professional I've ever met. Amazing dude), and we never would have made it to our newest normal with Isla.</p>
 
                                     <p>Ok, I'm finally going to tell you. Hopefully the suspense is unbearable now for you, my lovely readers, who do not know our family personally (I know, leading you on like this was a dick move, but we have made it). It was mid December 2015. Isla was just over a month old. I was working in the city and Katie was in the midst of her 4 months maternity leave (we decided I'd take the remaining 8 months, hence the term Fommy. Best decision of my life). It was the day Katie brought Isla in to see her paediatrician. It was about 6:30 pm when I got home from work and Katie had waited for me to arrive home before telling me how the doctor’s visit went. I remember walking in the door and seeing Katie holding our sweet baby girl tightly with tears in her eyes. She said the meeting did not go so well. Our whole lives we have been extremely fortunate so I always assume the best outcome, which makes it that much harder to hear bad news for once. However, we knew someday it was bound to happen. The paediatrician agreed that the jaundice and pale coloured poop was concerning. He advised Katie to head to the Valley Regional Hospital that day and get blood work done. He told us that there could be several reasons for these symptoms, but he wanted to rule out the most serious one, which is a dandy little disease called Biliary Atresia. This is where we learned that our paediatrician was a god send and he takes his career to a whole new level of awesomeness. He called Katie after hours to share with her the abnormal blood results and he called multiple times afterwards to ensure we were doing ok as well as having all of our questions answered. Our doctor presumed, with the risk of Biliary Atresia, that we would be admitted into the IWK Children's Hospital in Halifax. Unfortunately, he was correct and we took a trip to the hospital a couple days after the blood was drawn.</p>
 
@@ -431,7 +464,7 @@
 
                     <hr class="light">
 
-<!-- ADDITIONAL BLOG POST 3 ============================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 4 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 5 image" src="../img/portfolio/hospital.jpg" data-toggle="modal" data-target="#myModal-5">
@@ -441,7 +474,7 @@
                             <hr>
                             <p>The nail-biting day had arrived. The day we were to find out if our precious little peanut was just messing with us or about to change our lives. We had packed for about...</p>
                         </div>
-                  	</div>
+                    </div>
 
                     <!-- Modal -->
                     <div class="modal fade" id="myModal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
@@ -454,7 +487,7 @@
                                 </div>
                                 <div class="modal-body">
 
-                                	<h5>Click <a href="blog-5.php">here</a> for full article or read "text-only" version below</h5>
+                                    <h5>Click <a href="blog-5.php">here</a> for full article or read "text-only" version below</h5>
                                     <hr>
 
                                     <p>The nail-biting day had arrived. The day we were to find out if our precious little peanut was just messing with us or about to change our lives. We had packed for about a week and had hoped it would not be any longer than that. Usually having most of our close friends living in Halifax (1.5 hours away from home) was inconvenient unless we needed a place to crawl back to after a night of “apple juice” drinking, however, this trip it was a god-send. Especially my best bud’s wife, Cindy. They lived about a 10 minute walk from the IWK and they went above and beyond during our stay at the hospital. They offered a room in their house for us to stay, if needed, and Cindy checked in on us almost everyday. Katie and I dropped off all of our luggage at the Snillis’ (name changed in order to protect their identity) and headed to the hospital to get Isla admitted. Who would have known Isla’s first big outing would be to the IWK, how exciting… </p>
@@ -479,7 +512,7 @@
 
                     <hr class="light">
 
-<!-- ADDITIONAL BLOG POST 4 ============================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 5 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 6 image" src="../img/portfolio/xmas.jpg" data-toggle="modal" data-target="#myModal-6">
@@ -511,7 +544,7 @@
 
                                     <p>One day we had a short older nurse with spiked dark hair (who quickly became one of our favourite nurses) introduce us to an amazing little sugar solution called “toot-sweet.” For those of you who do not know, this clear sugar-liquid contained in a small purple tube, was named “baby crack” on the paediatric floor. You could be giving your baby a “Horse Bite” while dunking her head into the toilet for a swirly and as long as a drop of this liquid touched her lips, she would probably be giggling the whole time. Seriously though, the mornings became a lot easier with this shit. Instead of two technicians standing over our daughter grabbing and poking while we sat on our bed red eyed and glaring; it would be two technicians as well one of us squeezing one drop at a time of Toot-Sweet as soon as Isla’s eyebrow so much as twitched. Isla could be mid-screech and as soon as the drop touched her lips she would immediately stop, start slurping like a pudgy toddler with a popsicle on a scorching hot day, and moan with each suck as though to say: “it’s so good, once it hits your lips, it’s so good!” Needless to say, this shit was da-bomb and was used several more times during our stay..</p>
 
-                                    <p>We felt as though we met with every professional at the IWK including the kitchen sink. Everyone wanted their piece of the pie with Isla and for the most part they were necessary. We met with all of the Gastrointestinal (GI) specialists including Dr. R’s two other colleagues, the awkwardly quiet resident, and a plethora of medical students. Katie and I quickly became the experts on Biliary Atresia and had to sometimes explain it to the IWK professionals since it was such a rare disease (Dr. R claimed that they only receive 1-2 cases a year in the Maritimes). There was nutritionist who setup Isla with her special formula concentration as well as vitamin regimen. There was a social worker who checked in to see how we were coping with everything. There was the genetics team who created a pedigree as well as going over Isla’s diagnostic plan for their branch of medicine (which turns out, was the bulk of her diagnostic work). This was quite the situation and Katie and I learned more than we wanted to about our families. Luckily My mom as well as Katie’s mom were both in the room and they had a better grasp of our family disease history. “Great uncle Jib fell off a ladder when he was trying to peep on his neighbour and ever since he has a permanent erection,” said my mom. Katie’s mom said, “Cousin Beedoowapdo from Zambia got herpes from his pet Orangutan, but they are still in love.” I am surprised the poor geneticist stuck around as long as she did, however pale her skin turned. The genetics team was trying to rule out a disorder called Alagille syndrome, which can cause fewer than normal bile ducts in the liver, amongst many other things. The doctors understandably wanted to be 100% sure Isla’s condition was Biliary Atresia before performing the surgery.</p>
+                                    <p>We felt as though we met with every professional at the IWK including the kitchen sink. Everyone wanted their piece of the pie with Isla and for the most part they were necessary. We met with all of the Gastrointestinal (GI) specialists including Dr. R’s two other colleagues, the awkwardly quiet resident, and a plethora of medical students. Katie and I quickly became the experts on Biliary Atresia and had to sometimes explain it to the IWK professionals since it was such a rare disease (Dr. R claimed that they only receive 1-2 cases a year in the Maritimes). There was nutritionist who setup Isla with her special formula concentration as well as vitamin regimen. There was a social worker who checked in to see how we were coping with everything. There was the genetics team who created a pedigree as well as going over Isla’s diagnostic plan for their branch of medicine (which turns out, was the bulk of her diagnostic work). This was quite the situation and Katie and I learned more than we wanted to about our families. Luckily My mom as well as Katie’s mom were both in the room and they had a better grasp of our family disease history. “Great uncle Jib fell off a ladder when he was trying to peep on his neighbour and ever since he has a permanent erection,” said my mom. Katie’s mom said, “Cousin Beedoowapdo from Zambia got herpes from his pet Orangutang, but they are still in love.” I am surprised the poor geneticist stuck around as long as she did, however pale her skin turned. The genetics team was trying to rule out a disorder called Alagille syndrome, which can cause fewer than normal bile ducts in the liver, amongst many other things. The doctors understandably wanted to be 100% sure Isla’s condition was Biliary Atresia before performing the surgery.</p>
 
                                     <h2>Diagnostic Week</h2>
 
@@ -523,7 +556,7 @@
 
                                     <h2>Pre-Surgery</h2>
 
-                                    <p>It was finally official, after the grueling tens days of diagnosis, that Isla certainly had Biliary Atresia (of course not 110% sure until she was opened up, but 99.9% repeating). We found comfort in the amazing surgery team and Tabitha assured us, now that we knew who was performing the surgery, that Dr. Superstar was the best person to do it. Dr. Superstar had spoken with us about how Biliary Atresia, however un-ideal it was, was the best of the worst things for Isla to have. Firstly, babies are very resilient and the liver is especially so. The liver is one of the only organs that regenerates (thankfully for all of you alcohol abusers out there) and only needs to have a blood type match in order to donate a live piece of liver. Secondly, The Kasai procedure is not a permanent fix for 95% of all patients, but the goal is to prolong the time needed before the child needs a transplant (gives the child time to grow before partaking in a major surgery). Thirdly, Dr, Superstar was the only doctor on the surgical team who had performed the surgery before, so he was the right man for the job. These facts shed some light on Katie and my concerns and I am pretty sure we both decided, right then and there, that we would both be volunteering to be her liver donor. This would mean that we would have to slightly tweak our lifestyle: drastically cutting back on alcohol consumption, lowering our BMI’s, and continuing to stay focused on a healthy living/eating plan. We already actively pursued these goals, but raising Isla under these conditions so that she can make healthy choices herself, was the final kick in the pants for Katie and I. The surgery was booked for the 22<sup>nd</sup> of December and other than being at home, we learned that the IWK was an amazing place to be for Christmas.</p>
+                                    <p>It was finally official, after the gruelling tens days of diagnosis, that Isla certainly had Biliary Atresia (of course not 110% sure until she was opened up, but 99.9% repeating). We found comfort in the amazing surgery team and Tabitha assured us, now that we knew who was performing the surgery, that Dr. Superstar was the best person to do it. Dr. Superstar had spoken with us about how Biliary Atresia, however un-ideal it was, was the best of the worst things for Isla to have. Firstly, babies are very resilient and the liver is especially so. The liver is one of the only organs that regenerates (thankfully for all of you alcohol abusers out there) and only needs to have a blood type match in order to donate a live piece of liver. Secondly, The Kasai procedure is not a permanent fix for 95% of all patients, but the goal is to prolong the time needed before the child needs a transplant (gives the child time to grow before partaking in a major surgery). Thirdly, Dr, Superstar was the only doctor on the surgical team who had performed the surgery before, so he was the right man for the job. These facts shed some light on Katie and my concerns and I am pretty sure we both decided, right then and there, that we would both be volunteering to be her liver donor. This would mean that we would have to slightly tweak our lifestyle: drastically cutting back on alcohol consumption, lowering our BMI’s, and continuing to stay focused on a healthy living/eating plan. We already actively pursued these goals, but raising Isla under these conditions so that she can make healthy choices herself, was the final kick in the pants for Katie and I. The surgery was booked for the 22<sup>nd</sup> of December and other than being at home, we learned that the IWK was an amazing place to be for Christmas.</p>
 
                                     <h2>Surgery</h2>
 
@@ -540,10 +573,10 @@
                             </div>
                         </div>
                     </div>
-
+                    
                     <hr class="light">
 
-<!-- ADDITIONAL BLOG POST 5 ============================================================================================================================= -->
+<!-- ADDITIONAL BLOG POST 6 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
                         <img class="img-responsive" alt="post 7 image" src="../img/portfolio/santa.jpg" data-toggle="modal" data-target="#myModal-7">
@@ -553,7 +586,7 @@
                             <hr>
                             <p>We all survived the surgery. Isla had about a week of recovery on the surgical unit of the IWK Hospital. The rooms on this unit were much bigger. I'd say they were the Hilton to the Holiday Inn of the Paediatric unit...</p>
                         </div>
-                    </div>
+                  	</div>
 
                     <!-- Modal -->
                     <div class="modal fade" id="myModal-7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
@@ -566,7 +599,7 @@
                                 </div>
                                 <div class="modal-body">
 
-                                    <h5>Click <a href="blog-7.php">here</a> for full article with images or read "text-only" version below</h5>
+                                	<h5>Click <a href="blog-7.php">here</a> for full article with images or read "text-only" version below</h5>
                                     <hr>
                                     
                                     <h2>Recovery Week</h2>
@@ -605,63 +638,6 @@
 
                     <hr class="light">
 
-<!-- ADDITIONAL BLOG POST 6 ============================================================================================================================= -->
-                    <!-- Img trigger modal -->
-                    <div class="thumbnail">
-                        <img class="img-responsive" alt="post 8 image" src="../img/portfolio/car_seat.jpg" data-toggle="modal" data-target="#myModal-8">
-                        <div class="caption">
-                            <h3>"Bumps in the Road"</h3>
-                            <h4>June 7<sup>th</sup>, 2016</h4>
-                            <hr>
-                            <p>When you have a sick child it can be tricky to determine whether fussiness is due to their disease or if fussiness is due to normal baby things...</p>
-                        </div>
-                    </div>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal-8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="color:black;">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h3 class="modal-title" id="myModalLabel">"Bumps in the Road"</h3>
-                                    <h4>June 7<sup>th</sup>, 2016</h4>
-                                </div>
-                                <div class="modal-body">
-
-                                    <h5>Click <a href="blog-8.php">here</a> for full article or read "text-only" version below</h5>
-                                    <hr>
-
-                                    <p>Who said parenting was hard? That person is nuts! Just kidding, parenting can be tough, but again it is all about perspective. When you have a sick child it can be tricky to determine whether fussiness is due to their disease or if fussiness is due to normal baby things (teething, gas, etc). We are at the point now where the normal baby things are a breeze. I have seen first time parents jump at any sniffle with their babies and we have been so over that. When you have to be on guard for things like: blood in the stool, fever due to intestinal infection, jaundice worsening, rashes, excessive itching, fluid in the abdomen, loss of appetite, etc; a quick sniffle or whimper doesn’t phase you anymore. All of this doesn't mean we haven’t had our fair share of “hair pulling” moments caused by normal baby things throughout Isla’s first half of a year. </p>
-
-                                    <h2>The Four Month Regression</h2>
-
-                                    <p>“Man we have an easy baby.” “She can basically take care of herself.” Those were some of the common statements Katie and I used to make in the first few months of Isla’s life. In the grand scheme of things, that is still mainly the case, but we hit a little speed bump at four months. Leading up to four months Isla would cry if she was hungry, she would cry if she was poopy, and she would cry a little when she was sleepy. In fact, most of the time she would just pass out wherever she was or on whomever she was on when she got tired. I swear, she could be sleeping on a hungry shark in the middle of a bump’n rave concert. We soon realized that allowing her to dictate when she was sleeping (or not) was a huuuuge mistake. It was sometime in February, Katie and I were arriving home from a trip to Halifax (I will refer to Halifax as the “city” from now on. (Typing three less letters caters to my laziness so well). On this particular night, It was much later than Isla’s 6-7pm bedtime when we started the bedtime routine. The routine was as follows: heat up a bottle of milk, start running the bath water to a perfect temperature (we learned that the perfect temperature was reached when the first thing Isla did when her butt touched the water was to let the pee rip), plop Isla in the bath (plastic tub-like structure with a fabric ramp), dry her off in her Klu Klux Klan-like towel (essentially has a hood on it which raises to the notorious pointed top like that lovely group of outstanding citizens), baby massage (“It puts the lotion on it’s skin”), clean that stinky surprise off her bum, leg and back, feed her the bottle (feed her the "milk" from the bottle for all of you literal folks), read her a story (if it’s mom’s turn) or do a little dance with her (if it’s dad’s turn), wrap her like a mummy in her Swaddle Me blanket, turn on the mobile’s light and music, top it all off with a soother in the mouth. Is it just me or does everyone else automatically think of Maggie from The Simpsons as soon as their baby starts sucking on her soother or dumb-tit or pacifier or sookie; whatever the hell you call it? (I have grown fond of dumb-tit ever since I heard that name a few months back. I think it caters to my child-like sense of humour or as some people call it “immaturity”). Unfortunately, this night was different. Usually she lets off a long comforting sigh and tinkle as soon as we sit her in the warm bath (much like the sound daddy makes when he passes a large amount of gas), but tonight she was fussing and crying… ok, we’ll chalk that up as a fluke (maybe I bumped her leg when I sat her in the bath). Usually she looks up at me with that creepy smile (as stated in the blog introduction) when I lay her on her changing pad for a poop wipe, good-luck bum spank, and an anti-bum rash lubing, but tonight she was shrieking as soon as her head touched down… ok, now this is getting a bit out of the ordinary. Usually she rolls her eyes to the back of her head while we feed her that perfectly warmed bottle of milk, but tonight she was choking on it while she was crying in between gulps… shit! What the shit is going on with her? This was our first anxiety rendering experience of: “is her disease causing her pain?” “Is this just something normal for babies and our lack of experience is getting the best of us?” We tried everything. Group hugs, pep talks (“You can do this Isla, we believe in you!” “Please go to sleep or your mom and I are going to take up heroin as a hobby”), more milk, dances, double wrapping her swaddle, turning the room temperature up, turning the room temperature down, singing her lullabies… Oh! Dad to the rescue… she always settles when we put her in her car seat and swing her back and forth… NOPE… didn’t work… Holy son of a Vondruke! It was getting to be close to 3am now and Katie and I were starting to get cranky with each other. There were moments we were just sitting there with blood shot eyes, swaying back and forth, staring at a blank wall, with our hair pulled out of our heads and a baby screaming in the background. Well there’s only one more thing I can think of… let’s go for a drive for as long as it takes. I’ll fucking drive to China if I have to (by the way, a lot of the baby materials I mentioned above are on my Amazon store, check it out on the bottom of this webpage!).</p>
-
-                                    <h2>Let’s Go Do a “B” & “E”</h2>
-
-                                    <p>There is not much area to drive in our small town of 6,094 people (yeah I just Googled that and that was the population in 2011, do some’in!). If we drove through the greater Annapolis Valley area we would have a whole lot more terrain to cover surrounded by farmlands and mountains, but I didn’t want to take any chances. If we finally got this devil child to sleep I was pulling a U-turn (a Granny-like slow-ass U-turn as to not disturb our sleeping beauty) and we were going to drive the car right into her nursery, car seat and all (so we did not have to lift her out of her car seat to place her in bed. Protect the sleep!) We just finished our 50th lap around Paddy’s Pub (that one-way stretch of road which goes in a circle in downtown Kentville and probably totals 1 km). All of a sudden the crying stopped, thank the lord almighty. Katie reached to the back where Isla was sitting and performed her routine “check if she’s breathing” check. (Get off your high horse people, you know how ridiculous it is, but you’ve still done it). FINALLY! she was out cold (asleep, that is). We were on the home-stretch, literally, and all of a sudden I noticed an ominous sight ahead. God Dammit! It was a fucking road block. The blue and red lights were flashing, the cops were laughing and flashing their flashlights in the car windows (I guess it was 4am on a Saturday night and there are drunks out there thinking they are Nascar drivers). What freaking luck we have! If they only knew the shit storm they could potentially cause. Yes, I thought about it: “Should I rev this SUV up to it’s zero to sixty in 50 minutes, fly through this traffic stop  like we just performed a break and entry, flip the cops the bird as we blow past them, enjoy our next 12 months in jail while Isla gets a nice cozy room in a foster home at 4 months old?” Yeah probably not the best idea, but believe me, it was intriguing. Instead we begrudgingly pulled up to the traffic stop like the good obedient citizens we are, I rolled down the window, and the officer flashed his light in. I didn’t realize it at the time, but the officer probably had his own thoughts the instant his flashlight illuminated our vehicle: “Two citizens, visibly distressed, messy hair, dishevelled clothing, maybe domestic         dispute, ask the driver if he has been drinking, ask the woman in the passenger seat if everything is alright, put your hand on your gun  and… hold on.” Then he shined the light into the back seat where a baby was peacefully sleeping, immediately understands (must be a father himself) and says with a sympathetic tone: “Have a good night folks.”</p>   
-
-                                    <p>We arrived back home and luckily Isla was still snoozing. We turned the car off, closed the car doors like we were trying to close them on a balloon without popping it, took Isla out of her carseat in a sloth-like fashion and ventured into her nursery. I think we got as far as her nursery door and: “WAAAAAAAAAAA WAAAAAAA!” I think both of our hearts skipped a few beats and we almost passed out with exhaustion. The anxiety set in again and we began to worry about her health. Maybe she was in pain? We should give the GI clinic a call tomorrow, just to be safe. The rest of the night was a blur, but I remember sometime between 5am and 6am Katie decided to strip down to her skivvies and cuddle with Isla on the couch. After about 20 minutes of the skin-to-skin cuddling I remember the crying subsided and I was dreaming.</p>
-
-                                    <h2>Do Some Research Ya Dumbasses</h2>
-
-                                    <p>We woke up a few hours later. The day was back to normal as well as our lovely little lady. Katie decided to do a little research and found an article on “4 month sleep regression.” Essentially, when a baby hits approximately the four month mark their brain gets to a certain level of development where they will wake themselves up. Their sleep cycles begin to get all out of whack and some start having night terrors. I was a little skeptical at first, but I was willing to do anything in order to avoid another night of terror like the previous one. The advice from the linked website provided a solution. They recommended that babies need to be put on a sleep schedule from the time they are born. When they are Isla’s age it was recommended to have her stay fed and woken up early in the morning. Do not allow her to stay awake for any longer than an hour and a half in between naps and have her nap no longer than two hours, but no shorter than an hour. You continue this routine of napping-awake-feeding schedule until they are about 6 months old and then you start to lengthen the awake duration. This all seemed like a lot of work, but I am here to say: Isla is now almost 7 months old and I stick to this schedule like it’s a fanatical religion. I have it built into my alarm clock on my cell phone and besides the couple of times her fussiness actually was caused by her disease progression (keep an eye out for these updates in the next few blog posts), there have been no more issues with sleeping at night. During our regular monthly clinic visits to see the GI folks we can confidently say: “Isla sleeps well, barely ever fussy, eats well, man we have an easy baby, she can basically take care of herself.” </p>
-
-                                    <p>So, from one newbie to another, get those little punks on a schedule. It will save your sleep, sanity and keep you out of jail.</p>
-
-                                    <p><a href="http://www.babysleepsite.com/baby-sleep-patterns/4-month-sleep-regression/" style="color:black;"><strong>Sleep Regression Article</strong></a></p>
-
-                                    <blockquote style="color:black;"><em>Please Follow Giggles N Shit on <a href="https://twitter.com/gigglesshitblog">Twitter</a>, <a href="https://www.facebook.com/gigglesnshitblog/">Facebook</a> or <a href="https://www.instagram.com/gigglesnshitblog/">Instagram</a> to keep up to date with the latest blog posts and the latest updates of our family story. Don't forget to share with your friends!</em></blockquote>                              
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <hr class="light">
-
 <!-- GOOGLE ADSENSE #2 ================================================================================================================================== -->
                     <?php
                         $googleadsense2 =
@@ -689,7 +665,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="fb-comments" data-href="http://www.gigglesnshit.com/pages/blog-9.php" data-mobile="Auto-detected" data-colorscheme="dark" data-width="100%" data-order-by="social" data-numposts="10"></div>
+                    <div class="fb-comments" data-href="http://www.gigglesnshit.com/pages/blog-2.php" data-mobile="Auto-detected" data-colorscheme="dark" data-width="100%" data-order-by="social" data-numposts="10"></div>
                 </div><!-- ./col-lg-12 -->
             </div><!-- ./row -->
         </div><!-- ./container -->
@@ -819,4 +795,4 @@
 </body>
 <!-- END BODY SECTION =================================================================================================================================== -->
 
-</html>                                        
+</html>
