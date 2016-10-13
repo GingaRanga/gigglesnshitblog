@@ -1,16 +1,25 @@
 {
-  "name": "my-blog",
-  "version": "5.11.0",
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "blog site",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-uncss": "^0.6.1"
+  },
   "devDependencies": {
-    "apache-server-configs": "^2.14.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-contrib-htmlmin": "^1.4.0",
-    "grunt-contrib-imagemin": "^1.0.0",
-    "grunt-contrib-uglify": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-pagespeed": "^2.0.0",
-    "grunt-responsive-images": "^0.1.7"
-  }
+    "grunt": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GingaRanga/gigglesnshitblog.git"
+  },
+  "author": "Evan Marshall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GingaRanga/gigglesnshitblog/issues"
+  },
+  "homepage": "https://github.com/GingaRanga/gigglesnshitblog#readme"
 }
