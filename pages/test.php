@@ -4,6 +4,14 @@
 <!-- START HEAD SECTION ============================================================================================================================ -->
 <head>
 
+<!-- I.E. #3 -->        
+    <style>
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+    </style>
+
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -136,14 +144,15 @@
         </div><!-- /.container-fluid -->
     </nav><!-- ./Social Nav -->
 <!-- END SOCIAL NAV SECTION ======================================================================================================================== -->    
-
-<!-- START MAIN BLOG POST SECTION & ADDITIONAL POSTS =============================================================================================== -->
+<!--
+I.E. #1
+  	
    	<section class="bg-primary" id="test">
 		<div class="container text-center">	                 
 			<h1>Mozilla is cool</h1>
 			<img src="../img/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
 			<p>At Mozilla, we're a global community of</p>
-			<ul> <!-- changed to list in the tutorial -->
+			<ul> 
 			  <li>technologists</li>
 			  <li>thinkers</li>
 			  <li>builders</li>
@@ -151,61 +160,37 @@
 			<p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
 			<p>Read the <a style="color:black;" href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
 			<button type="button" class="btn btn-success">Change User</button>
-			<!-- TEST JAVASCRIPT =============================================================================================================================== -->
 			<script src="../js/main.js"></script> 
 		</div>
 	</section>
+-->	
 	<!-- NOTES: So, your heading text has been changed to "Hello world!" using JavaScript. We did this by first using a function called querySelector() to grab a reference to our heading, and store it in a variable called myHeading. querySelector() grabs first instance of the tag. After that, we set the value of the myHeading variable's textContent property (which represents the content of the heading) to "Hello world!". -->
-
-<!-- START CONTACT SECTION ========================================================================================================================= -->
-    <section class="bg-dark" ud="contact">
-     	<div class="container text-center">
-			<h2 class="section-heading">Drop me a Line</h2>
-			<hr class="primary">
-			<p>Feel free to contact me anytime, anyday via my personal email or social media accounts.</p>
-			<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-			<p><a href="mailto:evanmarshall1986@gmail.com">EMAIL ME!</a></p>
+	
+<!--
+I.E. #2
+	
+	<section class="bg-dark" id="test">
+		<div class="container text-center">
+			<button>Click me</button>
 		</div>
-	</section>		
-<!-- END CONTACT SECTION =========================================================================================================================== -->
-    
-<!-- START SOCIAL ACCOUNTS SECTION ================================================================================================================= -->
-    <section id="social">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Let's Get Social!</h2>
-                    <h3>Follow, add, or like Giggles N Shit's social media accounts</h3>
-                    <hr class="primary">
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <a href="https://www.facebook.com/gigglesnshitblog/"><i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
-                        <h3>Facebook</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <a href="https://www.instagram.com/gigglesnshitblog/"><i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
-                        <h3>Instagram</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <a href="https://www.etsy.com/ca/shop/BabyIslay?ref=shopinfo_shophome_leftnav"><i class="fa fa-shopping-cart fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
-                        <h3>Etsy</h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <a href="https://twitter.com/gigglesshitblog"><i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i></a>
-                        <h3>Twitter</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END SOCIAL ACCOUNTS SECTION =================================================================================================================== -->
+	</section>
+-->	
+
+<!-- I.E. #3 -->
+<h1>Number guessing game</h1>
+
+      <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or less. We'll tell you if your guess was too high or too low.</p>
+
+<div class="form">
+  <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+  <input type="submit" value="Submit guess" class="guessSubmit">
+</div>
+
+<div class="resultParas">
+  <p class="guesses"></p>
+  <p class="lastResult"></p>
+  <p class="lowOrHi"></p>
+</div>
 
 <!-- MINIFIED BOOTSTRAP JQUERY ===================================================================================================================== --><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
@@ -221,5 +206,28 @@
 
 </body>
 <!-- END BODY SECTION ============================================================================================================================== -->
+<!--
+I.E. #2
+
+<script>
+function createParagraph() {
+	var para = document.createElement('p');
+	para.textContent = 'You clicked the button!';
+	document.body.appendChild(para);
+}
+
+var buttons = document.querySelectorAll('button');
+
+for(var i = 0; i < buttons.length ; i++) {
+	buttons[i].addEventListener('click', createParagraph);
+}
+	//this works for all buttons on the page due to the for fxn. Any button you click will create a new paragraph
+</script>
+-->
+
+<!-- I.E. #3 -->
+<script>
+  // Your JavaScript goes here
+</script>
 
 </html>

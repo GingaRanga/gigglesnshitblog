@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="NOODP">
-    <meta name="description" content="It's going to get a little crazy on this blog! I am a new father, loving husband, and stay at home 'fommy.' Join me on my journey as I discuss hot-button topics and re-tell the mostly humourous side of being a family-man.">
+    <meta name="description" content="I am a new father, loving husband, and stay at home 'fommy.' Join me on my journey as I discuss hot-button topics and re-tell the mostly humourous side of being a family-man.">
     <meta name="keywords" content="baby products, baby, baby's, baby wear, baby clothing, parent portal, parents, infant, newly baby, newborn baby, liver, disease, liver disease, biliary atresia, giggles, shit, giggles n shit, blog, parent, father, fommy, stay at home, funny, humour, dad, newborn, baby, nursery, web development, tech">
     <meta name="author" content="Evan Marshall">
     <title>Giggles N Shit Blog</title>
@@ -260,7 +260,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-2.php?id=2" class="portfolio-box">
-                        <img src="img/portfolio/watermelon.jpg" class="img-responsive" alt="blog post 2">
+                        <img src="img/thumbnails/watermelon_thumb.jpg" class="img-responsive" alt="blog post 2">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -276,7 +276,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-3.php?id=3" class="portfolio-box">
-                        <img src="img/portfolio/peanut.jpg" class="img-responsive" alt="blog post 3">
+                        <img src="img/thumbnails/peanut_thumb.jpg" class="img-responsive" alt="blog post 3">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -292,7 +292,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-4.php?id=4" class="portfolio-box">
-                        <img src="img/portfolio/the-bomb-1.jpg" class="img-responsive" alt="blog post 4">
+                        <img src="img/thumbnails/the-bomb-1_thumb.jpg" class="img-responsive" alt="blog post 4">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -308,7 +308,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-5.php?id=5" class="portfolio-box">
-                        <img src="img/portfolio/hospital.jpg" class="img-responsive" alt="blog post 5">
+                        <img src="img/thumbnails/hospital_thumb.jpg" class="img-responsive" alt="blog post 5">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -324,7 +324,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-6.php?id=6" class="portfolio-box">
-                        <img src="img/portfolio/xmas.jpg" class="img-responsive" alt="blog post 6">
+                        <img src="img/thumbnails/xmas_thumb.jpg" class="img-responsive" alt="blog post 6">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -340,7 +340,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-7.php?id=7" class="portfolio-box">
-                        <img src="img/portfolio/santa.jpg" class="img-responsive" alt="blog post 7">
+                        <img src="img/thumbnails/santa_thumb.jpg" class="img-responsive" alt="blog post 7">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -356,7 +356,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-8.php?id=8" class="portfolio-box">
-                        <img src="img/portfolio/car_seat.jpg" class="img-responsive" alt="blog post 8">
+                        <img src="img/thumbnails/car_seat_thumb.jpg" class="img-responsive" alt="blog post 8">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -372,7 +372,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-9.php?id=9" class="portfolio-box">
-                        <img src="img/portfolio/pooface.jpg" class="img-responsive" alt="blog post 9">
+                        <img src="img/thumbnails/pooface_thumb.jpg" class="img-responsive" alt="blog post 9">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -388,7 +388,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-10.php?id=10" class="portfolio-box">
-                        <img src="img/portfolio/yellow.jpg" class="img-responsive" alt="blog post 10">
+                        <img src="img/thumbnails/yellow_thumb.jpg" class="img-responsive" alt="blog post 10">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -404,7 +404,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-11.php?id=11" class="portfolio-box">
-                        <img src="img/portfolio/tx.jpg" class="img-responsive" alt="blog post 11">
+                        <img src="img/thumbnails/tx_thumb.jpg" class="img-responsive" alt="blog post 11">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -420,7 +420,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-12.php?id=12" class="portfolio-box">
-                        <img src="img/portfolio/plane.jpg" class="img-responsive" alt="blog post 12">
+                        <img src="img/thumbnails/plane_thumb.jpg" class="img-responsive" alt="blog post 12">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -436,7 +436,7 @@
                 
                 <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-13.php?id=13" class="portfolio-box">
-                        <img src="img/portfolio/beeds.jpg" class="img-responsive" alt="blog post 13">
+                        <img src="img/thumbnails/beads_thumb.jpg" class="img-responsive" alt="blog post 13">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">

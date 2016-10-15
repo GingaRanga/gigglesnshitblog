@@ -300,7 +300,7 @@
 <!-- ADDITIONAL BLOG POST 1 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img class="img-responsive" alt="post 2 image" src="../img/portfolio/watermelon.jpg" data-toggle="modal" data-target="#myModal-2">
+                        <img class="img-responsive" alt="post 2 image" src="../img/thumbnails/watermelon_thumb.jpg" data-toggle="modal" data-target="#myModal-2">
                         <div class="caption">
                             <h3>"The Watermelon Incident..."</h3>
                             <h4>March 28<sup>th</sup> 2016</h4>
@@ -356,7 +356,7 @@
 <!-- ADDITIONAL BLOG POST 2 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img class="img-responsive" alt="post 3 image" src="../img/portfolio/peanut.jpg" data-toggle="modal" data-target="#myModal-3">
+                        <img class="img-responsive" alt="post 3 image" src="../img/thumbnails/peanut_thumb.jpg" data-toggle="modal" data-target="#myModal-3">
                         <div class="caption">
                             <h3>"Dr. Sloth..."</h3>
                             <h4>April 5<sup>th</sup>, 2016</h4>
@@ -428,7 +428,7 @@
 <!-- ADDITIONAL BLOG POST 3 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img class="img-responsive" alt="post 4 image" src="../img/portfolio/the-bomb-1.jpg" data-toggle="modal" data-target="#myModal-4">
+                        <img class="img-responsive" alt="post 4 image" src="../img/thumbnails/the-bomb-1_thumb.jpg" data-toggle="modal" data-target="#myModal-4">
                         <div class="caption">
                             <h3>"The Bomb Drop: Part I"</h3>
                             <h4>April 11<sup>th</sup>, 2016</h4>
@@ -482,7 +482,7 @@
 <!-- ADDITIONAL BLOG POST 4 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img class="img-responsive" alt="post 5 image" src="../img/portfolio/hospital.jpg" data-toggle="modal" data-target="#myModal-5">
+                        <img class="img-responsive" alt="post 5 image" src="../img/thumbnails/hospital_thumb.jpg" data-toggle="modal" data-target="#myModal-5">
                         <div class="caption">
                             <h3>"The Bomb Drop: Part II"</h3>
                             <h4>April 19<sup>th</sup>, 2016</h4>
@@ -530,7 +530,7 @@
 <!-- ADDITIONAL BLOG POST 5 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img class="img-responsive" alt="post 6 image" src="../img/portfolio/xmas.jpg" data-toggle="modal" data-target="#myModal-6">
+                        <img class="img-responsive" alt="post 6 image" src="../img/thumbnails/xmas_thumb.jpg" data-toggle="modal" data-target="#myModal-6">
                         <div class="caption">
                             <h3>"Tough Cookie"</h3>
                             <h4>April 26<sup>th</sup>, 2016</h4>
@@ -594,7 +594,7 @@
 <!-- ADDITIONAL BLOG POST 6 ============================================================================================================================= -->
                     <!-- Img trigger modal -->
                     <div class="thumbnail">
-                        <img class="img-responsive" alt="post 7 image" src="../img/portfolio/santa.jpg" data-toggle="modal" data-target="#myModal-7">
+                        <img class="img-responsive" alt="post 7 image" src="../img/thumbnails/santa_thumb.jpg" data-toggle="modal" data-target="#myModal-7">
                         <div class="caption">
                             <h3>"The Fallout..."</h3>
                             <h4>May 3<sup>rd</sup>, 2016</h4>

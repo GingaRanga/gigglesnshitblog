@@ -18,11 +18,12 @@
 var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
-    var mySrc = myImage.getAttribute('src');
+	"use strict";
+ 	var mySrc = myImage.getAttribute('src');
     if(mySrc === '../img/firefox-icon.png') {
-      myImage.setAttribute ('src','../img/chrome-icon.png');
+  		myImage.setAttribute ('src','../img/chrome-icon.png');
     } else {
-      myImage.setAttribute ('src','../img/firefox-icon.png');
+  		myImage.setAttribute ('src','../img/firefox-icon.png');
     }
 };
 /* 
@@ -37,9 +38,10 @@ var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
 
 function setUserName() {
-  var myName = prompt('Please enter your name.');
-  localStorage.setItem('name', myName);
-  myHeading.innerHTML = 'Mozilla is cool, ' + myName;
+	"use strict";
+	var myName = prompt('Please enter your name.');
+	localStorage.setItem('name', myName);
+	myHeading.innerHTML = 'Mozilla is cool, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
@@ -49,8 +51,10 @@ if(!localStorage.getItem('name')) {
   myHeading.innerHTML = 'Mozilla is cool, ' + storedName;
 }
 
+
 myButton.onclick = function() {
-  setUserName();
+	"use strict";
+  	setUserName();
 };
 /*
 	This function contains a prompt() function, which brings up a dialog box, a bit like alert() except that prompt() asks the user to enter some data, and stores that data in a variable after the user presses OK. In this case, we are asking the user to enter their name. Next, we call on an API called localStorage, which allows us to store data in the browser and retrieve it later on. We use localStorage's setItem() function to create and store a data item called 'name', and set its value to the myName variable that contains the name the user entered. Finally, we set the textContent of the heading to a string, plus the user's name.
@@ -73,3 +77,18 @@ myButton.onclick = function() {
 /*
 	Server-side code on the other hand is run on the server, then its results are downloaded and displayed in the browser. Examples of popular server-side web languages include PHP, Python, Ruby, and ASP.NET. And JavaScript! JavaScript can also be used as a server-side language, for example in the popular Node.js environment
 */	
+
+/*I.E.
+	var para = document.querySelector('p'); ----> this selects the first p tag
+
+	para.addEventListener('click', updateName); ----> this watches for the paragraph to get clicked then runs fxn updateName
+
+	function updateName() {
+	  var name = prompt('Enter a new name'); ----> prompts user to enter a name and stores it in variable name
+	  para.textContent = 'Player 1: ' + name; ----> enters content typed in prompt as the new textContent
+	}
+	
+	Store useful values inside variables. In the above example for instance, we ask for a new name to be entered then store that name in a variable called name.
+	Operations on pieces of text (known as "strings" in programming). In the above example we take the string "Player 1: " and join it to the name variable to create the complete text label, e.g. ''Player 1: Chris".
+	Running code in response to certain events occurring on a web page. We used a click event in our example above to detect when the button is clicked and then run the code that updates the text label.)
+*/
