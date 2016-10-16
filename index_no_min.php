@@ -259,22 +259,6 @@
           		<h2 class="text-center bg-dark" style="margin:0; padding:15px 0;">Click the images below to access the posts</h2>
                 
                 <div class="col-lg-4 col-sm-6">
-                    <a href="pages/blog-2.php?id=2" class="portfolio-box">
-                        <img src="img/thumbnails/watermelon_thumb.jpg" class="img-responsive" alt="blog post 2">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    "The Watermelon Incident..."
-                                </div>
-                                <div class="project-name">
-                                    March 28<sup>th</sup>, 2016
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                
-                <div class="col-lg-4 col-sm-6">
                     <a href="pages/blog-3.php?id=3" class="portfolio-box">
                         <img src="img/thumbnails/peanut_thumb.jpg" class="img-responsive" alt="blog post 3">
                         <div class="portfolio-box-caption">
@@ -444,6 +428,22 @@
                                 </div>
                                 <div class="project-name">
                                     October 2<sup>nd</sup>, 2016
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-sm-6">
+                    <a href="pages/blog-14.php?id=14" class="portfolio-box">
+                        <img src="img/thumbnails/surgery_thumb.jpg" class="img-responsive" alt="blog post 14">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    "Summer in the Six: Part III"
+                                </div>
+                                <div class="project-name">
+                                    October 16<sup>th</sup>, 2016
                                 </div>
                             </div>
                         </div>
