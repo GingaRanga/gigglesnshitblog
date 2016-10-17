@@ -30,7 +30,7 @@
 	?>  
 
 <!-- FAVICONS =========================================================================================================================================== -->
-    <link rel="icon" href="../favicon.png" type="image/png">
+    <link rel="icon" href="../img/favicon.png" type="image/png">
 
 <!-- FACEBOOK GRAPH DATA ================================================================================================================================ -->
     <meta property="og:url" content="http://www.gigglesnshit.com/pages/blog-14.php" />
@@ -99,7 +99,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="../index.php">Giggles N Shit Blog</a>
+                <a class="navbar-brand page-scroll" href="../index.php"><img class="img-responsive" alt="Brand" src="../img/brand.png"></a>
             </div><!-- ./navbar-header -->
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

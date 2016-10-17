@@ -4,9 +4,15 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  
  Colour Preferences:
- Pale Blue - #5763AC
- Darker Blue - #4D5CDA
+ Darker Blue - #5BB8CE
  Pale Orange - #F05F40
+ Chocolate - #282014
+ Pale Aqua - #5BB8CE
+ Pale Grey - #E5E5E5
+
+E5E5E5
+
+
  */
 
 html,
@@ -20,7 +26,7 @@ img, embed, object, video{
 }
 
 hr {
-    border-color:#5763AC;
+    border-color:#282014;
 }
 
 hr.light {
@@ -28,7 +34,7 @@ hr.light {
 }
 
 a {
-    color: #5763AC;
+    color: #282014;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -36,7 +42,7 @@ a {
 
 a:hover,
 a:focus {
-    color:#4D5CDA;
+    color:#5BB8CE;
 }
 
 p {
@@ -46,12 +52,16 @@ p {
 }
 
 .bg-primary {
-    background-color: #5763AC;
+    background-color: #5BB8CE;
 }
 
 .bg-dark {
     color: #fff;
-    background-color: #222;
+    background-color: #282014;
+}
+
+.bg-pale{
+	background-color: #E5E5E5;
 }
 
 .text-faded {
@@ -154,12 +164,12 @@ aside {
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
     font-weight: 700;
-    color: #5763AC;
+    color: #282014;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #4D5CDA;
+    color: #5BB8CE;
 }
 
 .navbar-default .nav > li>a,
@@ -172,12 +182,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #5763AC;
+    color: #282014;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #5763AC!important;
+    color: #282014!important;
     background-color: transparent;
 }
 
@@ -267,7 +277,7 @@ header .header-content .header-content-inner p {
     text-align: center;
     color: #fff;
     opacity: 0;
-    background: rgba(240,95,64,.9);
+    background: rgba(91,184,206,.9);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -305,7 +315,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #5763AC;
+    color: #282014;
 }
 
 .no-gutter > [class*=col-] {
@@ -367,9 +377,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #5763AC;
+    border-color: #282014;
     color: #fff;
-    background-color: #5763AC;
+    background-color: #282014;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -381,9 +391,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #4D5CDA;
+    border-color: #5BB8CE;
     color: #fff;
-    background-color: #4D5CDA;
+    background-color: #5BB8CE;
 }
 
 .btn-primary:active,
@@ -410,12 +420,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #5763AC;
-    background-color: #5763AC;
+    border-color: #282014;
+    background-color: #282014;
 }
 
 .btn-primary .badge {
-    color: #5763AC;
+    color: #282014;
     background-color: #fff;
 }
 

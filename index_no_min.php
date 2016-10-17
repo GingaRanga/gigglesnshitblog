@@ -30,24 +30,8 @@
     	echo $googleadsense0;
 	?>        
 
-<!-- FAVICONS =============================================================================================================================================== -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon.ico/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
-    <link rel="manifest" href="favicon.ico/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon.ico/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+<!-- FAVICONS =========================================================================================================================================== -->
+    <link rel="icon" href="img/favicon.png" type="image/png">   
 
 <!-- FACEBOOK GRAPH DATA ==================================================================================================================================== -->
     <meta property="og:url" content="http://www.gigglesnshit.com" />
@@ -116,8 +100,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Giggles N Shit Blog</a>
-
+                <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" alt="Brand" src="img/brand.png"></a>
             </div><!-- ./navbar-header -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -143,7 +126,7 @@
     </nav>
 <!-- END TOP NAV SECTION ====================================================================================================================================
 <!-- START SOCIAL NAV SECTION =============================================================================================================================== -->						
-	    <nav id="mainNav" role="navigation" class="social navbar navbar-default navbar-fixed-bottom">
+	    <nav id="mainNav2" role="navigation" class="social navbar navbar-default navbar-fixed-bottom">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -493,7 +476,7 @@
 <!-- END FB COMMENTS SECTION ================================================================================================================================ -->
 
 <!-- START RECOMMENDED RESOURCES SECTION ==================================================================================================================== -->
-    <section id="sites">
+    <section id="sites" class="bg-pale">
         <div class="container-fluid">
             <h2 class="text-center">Highly Recommended Resources for my Readers</h2>
             <hr>
@@ -564,7 +547,7 @@
 <!-- END CONTACT SECTION ==================================================================================================================================== -->
     
 <!-- START SOCIAL ACCOUNTS SECTION ========================================================================================================================== -->
-    <section id="social">
+    <section id="social" class="bg-pale">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
